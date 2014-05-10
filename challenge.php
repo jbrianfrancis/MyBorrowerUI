@@ -33,7 +33,7 @@
 		
 
 			<div class="row">
-			  <div class="col-md-12">
+			  <div class="col-md-10 col-md-offset-1">
 		
 				  <div class="panel panel-default">
 				    <div class="panel-heading panel-heading-authorize">
@@ -52,13 +52,12 @@
 						
 	  			</div><!-- close panel-body -->
 	  		</div><!-- close panel -->
+			
+			  <a class="btn btn-lg btn-hybrid" href="#">Continue <i class="fa fa-chevron-right"></i></a>
+
 		</div> <!-- close col-md-6 -->	
 	</div> <!-- close row -->	
 </div> <!-- close container -->	
-
-<div class="process-bar">
-	<a href="#" class="btn-process">Continue <i class="fa fa-chevron-right"></i></a>
-</div>
 
     <?php include("includes/footer.php"); ?>
 	<script>

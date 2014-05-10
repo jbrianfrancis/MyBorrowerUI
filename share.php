@@ -44,7 +44,43 @@
 		</div>
 	</div>
 	<div class="row">
-	<div class="col-md-6">
+	<div class="col-md-12">
+			
+			<!-- Default panel contents -->
+
+
+		<div class="panel panel-default panel-ac">
+			
+		  <!-- Default panel contents -->
+		  <div class="panel-heading">
+			  <h3 class="panel-title black"><strong>Shared Accounts</strong></h3>
+		  </div>
+
+		  <!-- Table -->
+		  	<table class="table table-ac">
+				<thead class="gray-heading">
+				<tr>
+					<th>Name</th>
+					<th></th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td class="account-cell">Operating (************4509)</td>
+					<td><em>Shared</em></td>
+				</tr>
+				<tr>
+					<td class="account-cell">SAVINGS (************3276)</td>
+					<td class="share-cell"><em>Shared</em></td>
+				</tr>
+
+				</tbody>
+			  </table>
+			  
+		  </div> <!-- close panel -->
+			
+		</div>
+	<div class="col-md-12">
 			
 		<div class="panel panel-default panel-ac">
   		  	<!-- Default panel contents -->
@@ -129,50 +165,15 @@
   			  </table>
 
 		</div>
-	</div> <!-- /close col-md-6 -->
-		<div class="col-md-6">
-			
-			<!-- Default panel contents -->
-
-
-		<div class="panel panel-default panel-ac">
-			
-		  <!-- Default panel contents -->
-		  <div class="panel-heading">
-			  <h3 class="panel-title black"><strong>Shared Accounts</strong></h3>
-		  </div>
-
-		  <!-- Table -->
-		  	<table class="table table-ac">
-				<thead class="gray-heading">
-				<tr>
-					<th>Name</th>
-					<th></th>
-				</tr>
-				</thead>
-				<tbody>
-				<tr>
-					<td class="account-cell">Operating (************4509)</td>
-					<td><em>Shared</em></td>
-				</tr>
-				<tr>
-					<td class="account-cell">SAVINGS (************3276)</td>
-					<td class="share-cell"><em>Shared</em></td>
-				</tr>
-
-				</tbody>
-			  </table>
-			  
-		  </div> <!-- close panel -->
-
-		</div>
+		<div class="panel-footer panel-footer-ac">
+			  <a class="btn btn-lg btn-hybrid" href="#">Continue <i class="fa fa-chevron-right"></i></a>
+		  	</div> <!-- close panel-footer -->
+	</div> <!-- /close col-md-12 -->
+		
 		
 	</div>
-	</div>
-
-<div class="process-bar">
-	<a href="loading.php" class="btn-process">Continue <i class="fa fa-chevron-right"></i></a>
 </div>
+
     <?php include("includes/footer.php"); ?>
 	<script>
 		$(document).ready(function() {

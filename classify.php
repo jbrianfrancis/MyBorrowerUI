@@ -46,7 +46,7 @@
 
 
 		  <!-- Table -->
-		  <table class="table table-ac table-striped table-hover">
+		  <table class="table table-ac table-hover">
 			<thead class="gray-heading">
 			<tr>
 				<th style="padding-left:10px;">Account</th>
@@ -142,17 +142,18 @@
 			</tbody>
 		  </table>
 
-	</div> <!-- close panel -->
+
+		</div> <!-- close panel -->
 		
-		
+			<div class="panel-footer panel-footer-ac">
+			  <a class="btn btn-lg btn-hybrid" href="#">Continue <i class="fa fa-chevron-right"></i></a>
+		  	</div> <!-- close panel-footer -->
 		
 	</div> <!-- close row -->
 	</div> <!-- close col-md-12 -->
 </div> <!-- close container -->
 
-<div class="process-bar">
-	<a href="#" class="btn-process">Continue <i class="fa fa-chevron-right"></i></a>
-</div>
+
     <?php include("includes/footer.php"); ?>
 	
 	<script>
