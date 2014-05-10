@@ -741,7 +741,7 @@ h4.bank-name {
   padding: 7px 0 6px 0;
 }
 .white-header img {
-  margin-left: 35px;
+  margin-left: 100px;
   padding-bottom: 15px;
   padding-top: 20px;
 }
@@ -1320,16 +1320,16 @@ label.switch-light.switch-candy {
   margin-left: 0px;
 }
 .form-control[disabled] {
-  background-color: #f5f4f4;
+  background-color: #fafafa;
 }
 .form-signin .form-control {
   padding-left: 30px;
-  border-color: #eee;
+  border-color: #efefef;
   margin-left: 0px;
   margin-bottom: 10px;
   width: 100%;
   font-size: 18px;
-  color: #444444;
+  color: #ccc;
 }
 .input-group-signin {
   margin-bottom: 12px;
