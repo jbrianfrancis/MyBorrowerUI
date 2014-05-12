@@ -1196,7 +1196,7 @@ label.switch-light.switch-candy {
     height: 65px;
     margin-top: 6px;
     float: left;
-    width: 30%;
+    /* width:30%; */
   }
 }
 .btn-find-bank {
