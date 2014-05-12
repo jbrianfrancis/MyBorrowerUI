@@ -550,7 +550,7 @@ h4.bank-name {
   font-size: 16px;
 }
 .success-heading {
-  color: #27ae60;
+  color: #2bcc6f;
   margin: 0 0 10px 0;
   padding: 0;
 }
@@ -590,7 +590,7 @@ h4.bank-name {
 .notification {
   font-size: 16px;
   color: #555;
-  background-color: #27ae60;
+  background-color: #2bcc6f;
   color: #fff;
   padding: 10px 10px 12px 10px;
   margin: 14px 0 10px 0;
@@ -605,7 +605,7 @@ h4.bank-name {
   padding: 0;
 }
 .enrollment-success-green {
-  color: #27ae60;
+  color: #2bcc6f;
   margin: 0 0 0 0;
   padding: 0;
 }
@@ -801,8 +801,8 @@ h4.bank-name {
 }
 .btn-enrolled {
   color: #fff;
-  background-color: #27ae60;
-  border-color: #27ae60;
+  background-color: #2bcc6f;
+  border-color: #2bcc6f;
 }
 .btn-grey:hover,
 .btn-grey:focus,
@@ -819,8 +819,8 @@ h4.bank-name {
 .btn-enrolled.active,
 .open .dropdown-toggle.btn-grey {
   color: #fff;
-  background-color: #27ae60;
-  border-color: #27ae60;
+  background-color: #2bcc6f;
+  border-color: #2bcc6f;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -833,8 +833,8 @@ h4.bank-name {
 }
 .btn-grey {
   color: #fff;
-  background-color: #27ae60;
-  border-color: #27ae60;
+  background-color: #2bcc6f;
+  border-color: #2bcc6f;
   display: inline-block;
   width: 50%;
   margin-top: 6px;
@@ -849,7 +849,7 @@ h4.bank-name {
   margin-bottom: 0;
 }
 .enrolled-cell {
-  color: #27ae60;
+  color: #2bcc6f;
   text-align: center;
   font-weight: bold;
   vertical-align: middle;
@@ -857,7 +857,7 @@ h4.bank-name {
   background: transparent;
 }
 .enrolled-cell .status-icon {
-  color: #27ae60;
+  color: #2bcc6f;
 }
 .enrolled-cell .acerror {
   color: #cc0000;
@@ -1109,7 +1109,7 @@ th.xpadding-left-10 {
   font-size: 14px;
 }
 .ac-alert-success i {
-  color: #27ae60;
+  color: #2bcc6f;
 }
 @media all and (min-width: 992px) {
   .ac-alert-success {
@@ -1283,7 +1283,7 @@ label.switch-light.switch-candy {
   }
   .notification {
     font-size: 15px;
-    background-color: #27ae60;
+    background-color: #2bcc6f;
     color: #fff;
     margin: 0 0 10px 0;
     padding: 8px 8px 10px 8px;
@@ -1441,4 +1441,7 @@ td.share-cell {
   background-color: #fff;
   border: 1px solid #eee;
   color: #99a1a7;
+}
+.container {
+  max-width: 950px;
 }
