@@ -61,7 +61,7 @@
 			
 	</div>
 	<div class="col-md-6">
-			<h4 class="tiny-caps-type">Find Your Bank</h4>
+			<h4 class="tiny-caps-type find-bank">Find Your Bank</h4>
 				
 				<!-- Field for bank name -->
 			  <input type="text" class="form-control" placeholder="By Name">
@@ -72,15 +72,17 @@
 				<!-- Field for routing number -->
 			      <input type="text" class="form-control" placeholder="By Routing Number">
 			      <a href="#" class="btn btn-lg btn-find-bank">Find Bank <i class="fa fa-chevron-right"></i></a>
-			     
-			<hr>
-				
-				<h4 class="tiny-caps-type">How to find your routing number</h4>
-				
-				<p><img src="images/check-animation.gif" class="check-image" alt="How to find your routing number"></p>
 				
 	</div>
 	</div>
+	<div class="row">
+		<div class="col-md-12">
+			
+			<h4 class="tiny-caps-type find-routing">How to find your routing number</h4>
+				
+			<p><img src="images/check-big.gif" class="check-image" alt="How to find your routing number"></p>
+
+		</div>
 </div>
 
 <?php include("includes/footer.php"); ?>

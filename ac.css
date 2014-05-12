@@ -75,7 +75,7 @@ a {
 }
 .navbar {
   padding: 0;
-  background-color: #373942;
+  background-color: #34495e;
 }
 @media all and (min-width: 768px) {
   .navbar {
@@ -102,7 +102,7 @@ a {
   }
 }
 .navbar-nav > li > a i {
-  color: #777;
+  color: #2781bc;
   margin-right: 3px;
   transition: background-color 0.5s ease;
 }
@@ -352,11 +352,11 @@ ul.top-10-banks {
   padding-left: 0;
 }
 ul.top-10-banks li {
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 7px;
+  padding-bottom: 8px;
   list-style: none;
   border-bottom: 1px solid #efefef;
-  font-size: 16px;
+  font-size: 13px;
 }
 ul.top-10-banks li:last-child {
   border-bottom: none;
@@ -538,9 +538,20 @@ h4.tiny-caps-type {
     text-transform: uppercase;
     font-size: 10px;
     letter-spacing: 2px;
-    margin-top: 75px;
+    margin-top: 35px;
     font-weight: 600;
     margin-left: 0;
+  }
+}
+.find-bank {
+  padding-bottom: 12px;
+}
+.find-routing {
+  padding-top: 30px;
+}
+@media all and (min-width: 768px) {
+  .find-routing {
+    padding-top: 0;
   }
 }
 h4.bank-name {
@@ -739,9 +750,9 @@ h4.bank-name {
 }
 .white-header {
   padding: 7px 0 6px 0;
+  text-align: center;
 }
 .white-header img {
-  margin-left: 35px;
   padding-bottom: 15px;
   padding-top: 20px;
 }
@@ -928,11 +939,14 @@ progress {
   width: 60px;
 }
 /* Loading State Page Styles */
+.loading-anim {
+  margin-top: 18%;
+}
 #bowlG {
   position: relative;
   width: 128px;
   height: 128px;
-  margin: 17% auto 17px auto;
+  margin: 20% auto 4% auto;
 }
 #bowl_ringG {
   position: absolute;
@@ -1101,7 +1115,7 @@ th.xpadding-left-10 {
 .ac-alert-success {
   display: none;
   color: #fff;
-  background-color: #27ae60;
+  background-color: #2dc36c;
   border-radius: 0;
   border: none;
   text-align: center;
@@ -1193,7 +1207,7 @@ label.switch-light.switch-candy {
     height: 65px;
     margin-top: 6px;
     float: left;
-    width: 30%;
+    /* width:30%; */
   }
 }
 .btn-find-bank {
@@ -1320,16 +1334,16 @@ label.switch-light.switch-candy {
   margin-left: 0px;
 }
 .form-control[disabled] {
-  background-color: #f5f4f4;
+  background-color: #fafafa;
 }
 .form-signin .form-control {
   padding-left: 30px;
-  border-color: #eee;
+  border-color: #efefef;
   margin-left: 0px;
   margin-bottom: 10px;
   width: 100%;
   font-size: 18px;
-  color: #444444;
+  color: #ccc;
 }
 .input-group-signin {
   margin-bottom: 12px;
@@ -1441,4 +1455,7 @@ td.share-cell {
   background-color: #fff;
   border: 1px solid #eee;
   color: #99a1a7;
+}
+.container {
+  max-width: 950px;
 }

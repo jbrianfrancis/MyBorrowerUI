@@ -26,19 +26,12 @@
   <body>
 	
 	<?php include("includes/header-nobank.php"); ?>
-
-	<div id="bowlG">
-		<div id="bowl_ringG">
-			<div class="ball_holderG">
-				<div class="ballG">
-				</div>
-			</div>
-		</div>
-	</div>
-
+	
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3 text-center">
+			<div class="col-md-6 col-md-offset-3 text-center loading-anim">
+
+				<img src="images/animated-ac.gif" alt="Loading">
 				
 				<h3 class="loading-header">Loading Message Header</h3>
 				<p class="loading-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
