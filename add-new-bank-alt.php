@@ -78,7 +78,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			
-			<h4 class="tiny-caps-type">How to find your routing number</h4>
+			<h4 class="tiny-caps-type find-routing">How to find your routing number</h4>
 				
 			<p><img src="images/check-big.gif" class="check-image" alt="How to find your routing number"></p>
 
