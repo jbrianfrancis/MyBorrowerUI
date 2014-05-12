@@ -352,11 +352,11 @@ ul.top-10-banks {
   padding-left: 0;
 }
 ul.top-10-banks li {
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 7px;
+  padding-bottom: 8px;
   list-style: none;
   border-bottom: 1px solid #efefef;
-  font-size: 16px;
+  font-size: 13px;
 }
 ul.top-10-banks li:last-child {
   border-bottom: none;
@@ -538,10 +538,13 @@ h4.tiny-caps-type {
     text-transform: uppercase;
     font-size: 10px;
     letter-spacing: 2px;
-    margin-top: 75px;
+    margin-top: 35px;
     font-weight: 600;
     margin-left: 0;
   }
+}
+.find-bank {
+  padding-bottom: 12px;
 }
 h4.bank-name {
   font-size: 14px;

@@ -62,7 +62,7 @@
             <h4 class="list-group-item-heading">Bank Detail</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="add-new-bank.php" target="_blank" class="list-group-item">
+          <a href="add-new-bank-alt.php" target="_blank" class="list-group-item">
             <h4 class="list-group-item-heading">Add New Bank</h4>
             <p class="list-group-item-text"></p>
           </a>
