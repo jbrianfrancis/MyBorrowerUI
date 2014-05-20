@@ -49,7 +49,7 @@
 						<small><strong>No</strong> accounts shared</small>
 				</td>
 				<td></td>
-				<td class="enrolled-cell" style="vertical-align:middle;">
+				<td style="vertical-align:middle;">
 						<p class="status-action"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-plus-square"></i> Enroll Now</a></p>
 				</td>
 			</tr>
