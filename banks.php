@@ -39,23 +39,23 @@
 		  <table class="table table-ac">
 			<thead>
 			<tr>
-				<th colspan="3">Bank Name</th>
+				<th>Bank Name</th>
 			</tr>
 			</thead>
 			<tbody>
 			<tr>
-				<td style="vertical-align:middle;">
+				<td style="vertical-align:middle;" class="bank-cell">
 						Simple - Visa Debit Card<br>
 						<small><strong>No</strong> accounts shared</small>
 				</td>
-				<td></td>
+				<td class="enrolled-cell"><p class="status-icon"><i class="fa fa-check-circle fa-2x"></i></p></td>
 				<td style="vertical-align:middle;">
 						<p class="status-action"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-plus-square"></i> Enroll Now</a></p>
 				</td>
 			</tr>
 			<tr>
 				<td style="vertical-align:middle;">
-					<a href="nav-bank-details.php">American Bank of Texas (Seguin, Highland Lakes...</a><br>
+					<a href="nav-bank-details.php">American Bank</a><br>
 					<small><strong>2 of 6</strong> accounts shared</small>
 				</td>
 				<td class="enrolled-cell">
@@ -65,7 +65,7 @@
 					<p class="status-action"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-plus"></i> Share More</a></p>
 				</td>
 			</tr>
-			<tr>
+			<!-- <tr>
 				<td style="vertical-align:middle;">
 					American Bank of Texas (Seguin, Highland Lakes...<br>
 					<small><strong>No</strong> accounts shared</small>
@@ -89,7 +89,7 @@
 				<td>
 					<p class="status-action"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-wrench"></i> Fix It</a></p>
 				</td>
-			</tr>
+			</tr>-->
 			</tbody>
 		  </table>			
 		

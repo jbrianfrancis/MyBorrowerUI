@@ -14,11 +14,11 @@
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
 	
-    <!-- ACCOUNTCHEK STYLES -->
-    <link href="ac.css" rel="stylesheet">
-	
 	<!-- TOGGLE SWITCH STYLES -->
 	<link href="css/toggle-switch.css" rel="stylesheet">
+
+	<!-- ACCOUNTCHEK STYLES -->
+    <link href="ac.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,13 +36,9 @@
 	<div class="panel panel-default panel-signin">
 	  <div class="panel-body panel-body-signin">
 		<!-- <h3 style="margin-top:0;">Sign-in</h3> -->
-	  
-		    <input type="text" class="form-control" placeholder="Email Address" value="johndoe@gmail.com" disabled>
-	  
-		    <input type="tel" class="form-control" placeholder="Last 4 digits of SSN/EIN" autofocus>
-	  
-		    <input type="text" class="form-control" placeholder="Personal Access Code" value="C74H-G95M-R36D" disabled>
-
+		    <input type="text" class="form-control" placeholder="Email Address">
+		    <input type="tel" class="form-control" placeholder="Last 4 digits of SSN/EIN">
+		    <input type="text" class="form-control" placeholder="Personal Access Code">
 		</div>
 
 	  <p class="resend"><a href="#">Resend Personal Access Code &nbsp;<i class="fa fa-caret-right"></i></a></p>
@@ -52,16 +48,16 @@
 
 	<div class="terms-box">
 
-		<input type="checkbox"> <small class="terms-copy">Do you accept the ACCOUNTCHEK <a href="#" data-toggle="modal" data-target="#Terms">Terms of Service</a> and <a href="#" data-toggle="modal" data-target="#Privacy">Privacy Policy</a>?</small>
+		<small class="terms-copy">Do you accept the ACCOUNTCHEK <a href="#" data-toggle="modal" data-target="#Terms">Terms of Service</a> and <a href="#" data-toggle="modal" data-target="#Privacy">Privacy Policy</a>?</small>
 
-		<!-- <label class="switch-light switch-candy" onclick="" style="margin-bottom:10px;margin-right:50%;margin-top:10px;margin-bottom:24px;">
+		<label class="switch-light switch-candy" onclick="" style="margin-bottom:10px;margin-right:50%;margin-top:10px;margin-bottom:24px;">
 			<input type="checkbox">
 				<span>
 				<span>No</span>
 				<span>Yes</span>
 				</span>
 				<a></a>
-		</label> -->
+		</label>
 	
 
 	</div>

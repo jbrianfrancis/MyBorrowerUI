@@ -151,7 +151,7 @@ a {
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
 	color:#fff;
 	@media all and (min-width: @screen-sm) {
-		color:#777;
+		color:#fff;
 	}
 }
 
@@ -349,6 +349,7 @@ h3.panel-title.black strong {
 small {
 	font-size:14px;
 	color: @type;
+	padding-top:20px;
 }
 
 small.inverse {
@@ -1140,15 +1141,19 @@ th.xpadding-left-10 {
   	@media all and (min-width: @screen-sm) {
     	padding-top: 6px;
   		padding-bottom: 6px;
-  		font-weight: 300;
-  		font-size:18px;
+  		font-weight: 400;
+  		font-size:13px;
   	}
+}
+
+.switch-candy a {
+	background-color:@successgreen;
 }
 
 .alert {
 	font-size:12px;
 	@media all and (min-width: @screen-sm) {
-		font-size:14px;
+		font-size:13px;
 	}
 }
 
@@ -1377,8 +1382,8 @@ label.switch-light.switch-candy {
 
 .form-control {
 	height: 65px;
-    color: #444;
-    border: 1px solid #eee;
+    color: #333;
+    border: 1px solid #ccc;
     box-shadow: none;
     font-weight: 400;
     font-size: 18px;
@@ -1394,12 +1399,18 @@ label.switch-light.switch-candy {
 .form-signin {
 	.form-control {
 		padding-left: 30px;   
-        border-color: #efefef;
+        border-color: #ddd;
         margin-left: 0px;
         margin-bottom:10px;
         width: 100%;
     	font-size:18px;
-        color: #ccc; 
+        color: #333; 
+	}
+}
+
+.form-group {
+	label.tiny-caps {
+		display: none;
 	}
 }
 
@@ -1427,6 +1438,12 @@ label.switch-light.switch-candy {
       	text-shadow: 1px 1px #999;
        	font-size:1.2em;
     }
+}
+
+.bank-cell {
+	@media all and (min-width:@screen-sm) {
+		min-width:400px;
+	}
 }
 
 @media (min-width: @screen-sm) {
