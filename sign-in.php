@@ -36,7 +36,7 @@
 	<div class="panel panel-default panel-signin">
 	  <div class="panel-body panel-body-signin">
 		<!-- <h3 style="margin-top:0;">Sign-in</h3> -->
-		    <input type="text" class="form-control" placeholder="Email Address">
+		    <input type="text" class="form-control email-address" placeholder="Email Address">
 		    <input type="tel" class="form-control" placeholder="Last 4 digits of SSN/EIN">
 		    <input type="text" class="form-control" placeholder="Personal Access Code">
 		</div>
@@ -737,7 +737,7 @@
 	
 	<!-- Sign-in Button -->
 		
-	<a href="#" class="btn btn-lg btn-hybrid btn-block" style="display:block;width:100%;">Sign-in &nbsp;<i class="fa fa-caret-right"></i></a>
+	<a href="http://google.com" class="btn btn-lg btn-hybrid btn-block" style="display:block;width:100%;">Sign-in &nbsp;<i class="fa fa-caret-right"></i></a>
 		
 		</div>
 	</div>	
@@ -746,6 +746,12 @@
 </div>
 
 <?php include("includes/footer.php"); ?>
-
+	<script>
+		$("input.form-control").keyup(function(event){
+    		if(event.keyCode == 13){
+        	$("a.").click();
+    		}
+		});
+	</script>
   </body>
 </html>

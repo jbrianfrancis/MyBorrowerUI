@@ -1117,7 +1117,6 @@ th.xpadding-left-10 {
   }
 }
 .ac-alert-success {
-  display: none;
   color: #fff;
   background-color: #2dc36c;
   border-radius: 0;
@@ -1134,6 +1133,49 @@ th.xpadding-left-10 {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+.ac-alert-warning {
+  color: #5e5013;
+  background-color: #f1c40f;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+  margin-top: 0;
+  font-size: 14px;
+}
+.ac-alert-warning i {
+  color: #5e5013;
+  padding-right: 10px;
+}
+@media all and (min-width: 992px) {
+  .ac-alert-warning {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 22px;
+    margin-top: 0;
+    padding-bottom: 22px;
+  }
+}
+.ac-alert-info {
+  color: #34495e;
+  background-color: #fafafa;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+  margin-top: 0;
+  font-size: 14px;
+}
+.ac-alert-info i {
+  color: #34495e;
+  padding-right: 10px;
+}
+@media all and (min-width: 992px) {
+  .ac-alert-info {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 22px;
     margin-top: 0;
   }
 }
