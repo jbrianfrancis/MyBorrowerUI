@@ -401,7 +401,7 @@ ul.top-10-banks li:last-child {
 }
 .acnotification-acwarning {
   font-size: 15px;
-  background-color: #eb771a;
+  background-color: #ffffcc;
   color: #fff;
   margin: 0 0 10px 0;
   padding: 8px 8px 10px 8px;
@@ -1138,12 +1138,13 @@ th.xpadding-left-10 {
 }
 .ac-alert-warning {
   color: #5e5013;
-  background-color: #f1c40f;
+  background-color: #ffeda7;
   border-radius: 0;
   border: none;
   text-align: center;
   margin-top: 0;
   font-size: 14px;
+  display: none;
 }
 .ac-alert-warning i {
   color: #5e5013;
@@ -1155,7 +1156,6 @@ th.xpadding-left-10 {
     font-size: 16px;
     margin-bottom: 22px;
     margin-top: 0;
-    padding-bottom: 22px;
   }
 }
 .ac-alert-info {
@@ -1350,13 +1350,13 @@ label.switch-light.switch-candy {
   }
   .notification-warning {
     font-size: 15px;
-    background-color: #eb771a;
+    background-color: #ffffcc;
     color: #fff;
     margin: 0 0 10px 0;
     padding: 8px 8px 10px 8px;
   }
   .warning-icon {
-    color: #eb771a;
+    color: #ffffcc;
   }
   .table-responsive {
     font-size: 12px;

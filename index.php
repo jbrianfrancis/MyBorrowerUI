@@ -52,7 +52,7 @@
   				</a>
   				<a href="share.php" target="_blank" class="list-group-item">
     				<h4 class="list-group-item-heading">Share Accounts</h4>
-    				<p class="list-group-item-text"><a href="share-nomatch.php">Match fail messaging</a></p>
+    				<p class="list-group-item-text"></p>
   				</a>
           <a href="banks.php" target="_blank" class="list-group-item">
             <h4 class="list-group-item-heading">Banks</h4>
