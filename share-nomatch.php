@@ -88,13 +88,14 @@
 
 		</div>
 		<div class="panel-footer panel-footer-ac">
-			<div style="width:60%;float:left;">
+		<div class="row">
+			<div class="col-md-7">
 			  <a class="btn btn-lg btn-hybrid" href="#">Yes, Continue <i class="fa fa-chevron-right"></i></a>
 			</div>
-			<div style="width:40%;float:left;padding-left:20px;">
+			<div class="col-md-5">
 			  <a class="btn btn-lg btn-hybrid btn-secondary" href="#">No Match</a>
 			</div>
-			<div class="clearfix"></div>
+		</div>
 		 </div> <!-- close panel-footer -->
 	</div> <!-- /close col-md-12 -->
 		
