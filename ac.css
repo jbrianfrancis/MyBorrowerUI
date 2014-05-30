@@ -138,17 +138,16 @@ a {
     color: #fff;
   }
 }
-input[type="checkbox"],
-input[type="radio"] {
-  padding: 10px;
-  box-sizing: border-box;
-  -webkit-appearance: none;
-  background-color: #fff;
-  border: 1px solid #ececec;
-  padding: 15px;
-  float: left;
-  margin-right: 20px;
-}
+/* input[type="checkbox"], input[type="radio"] {
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	background-color: #fff;
+	border: 1px solid #ececec;
+	padding: 15px;
+	float: left;
+	margin-right: 20px;
+} */
 .basic-shadow {
   box-shadow: 0px 1px 0px #efefef;
 }
@@ -305,6 +304,9 @@ input[type="radio"] {
     margin-bottom: 24px;
   }
 }
+.radio label {
+  margin-left: 8px;
+}
 h3.panel-title {
   margin: 0;
 }
@@ -321,6 +323,9 @@ h3.panel-title.black strong {
   margin-left: 0;
   padding-left: 0;
 }
+h3.panel-title.black strong em {
+  color: #cc0000;
+}
 @media all and (min-width: 768px) {
   h3.panel-title.black strong {
     font-weight: 400;
@@ -330,6 +335,10 @@ h3.panel-title.black strong {
     margin-bottom: 0;
     padding-bottom: 0;
   }
+}
+.unmatched {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 small {
   font-size: 14px;
@@ -1255,6 +1264,18 @@ label.switch-light.switch-candy {
     float: left;
     /* width:30%; */
   }
+}
+.btn-secondary {
+  background-color: #efefef;
+  border-color: #efefef;
+  transition: all 0.8s ease;
+  box-shadow: 0px 5px 0px #ccc;
+  color: #222;
+}
+.btn-secondary:hover {
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+  color: #222;
 }
 .btn-find-bank {
   display: block;

@@ -30,7 +30,7 @@
 	<?php include("includes/header-nobank.php"); ?>
 
 	<div class="alert alert-success ac-alert-warning">
-		<i class="fa fa-exclamation-triangle"></i> We were unable to find the account you listed. It was likely just a glitch or a typo. Please choose which account you'd like to share from the list below.
+		<i class="fa fa-exclamation-triangle"></i> We weren't able to match the account you listed with one from your bank. 
 	</div>
 
 	<div class="container">
@@ -44,85 +44,43 @@
 		</div>
 	</div> -->
 	<div class="row">
-	<div class="col-md-12">
+	<div class="col-md-8 col-md-offset-2">
 			
 		<div class="panel panel-default panel-ac">
   		  	<!-- Default panel contents -->
-  			    <div class="panel-heading">
-  			  		<h3 class="panel-title black"><strong>Accounts Available to Share</strong></h3>
-  		  		</div> <!-- close panel-heading -->
+
+  			  		<p class="unmatched">The unmatched account number you entered was <strong>100275431674</strong>. Can you match it up with any of the accounts we received from your bank in the list below?</p>
+
+  		  		 <!-- close panel-heading -->
 
   		  <!-- Table -->
   		  	<table class="table table-ac">
-  				<thead class="gray-heading">
-  				<tr>
-  					<th class="account-cell">Name</th>
-					<th class="share-cell">Share?</th>
-  				</tr>
-  				</thead>
   				<tbody>
   				<tr>
 					<td class="account-cell">
-						Money Market (************1673)
-					</td>
-					<td class="share-cell">
-						<label class="switch-light switch-candy" onclick="">
-							<input type="checkbox">
-								<span>
-								<span>No</span>
-								<span>Yes</span>
-								</span>
-
-								<a></a>
-						</label>
+						<div class="radio">
+  							<label> 
+    							<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"> Money Market (************1673)
+  							</label>
+						</div>
 					</td>
   				</tr>
   				<tr>
 					<td class="account-cell">
-						IRA84 (************2233)
-					</td>
-					<td class="share-cell">
-						<label class="switch-light switch-candy" onclick="">
-							<input type="checkbox">
-								<span>
-								<span>No</span>
-								<span>Yes</span>
-								</span>
-
-								<a></a>
-						</label>
-					</td>
-				</tr>
-  				<tr>
-					<td class="account-cell">
-						 SEP088 (************6571)
-					</td>
-					<td class="share-cell">
-						<label class="switch-light switch-candy" onclick="">
-							<input type="checkbox">
-								<span>
-								<span>No</span>
-								<span>Yes</span>
-								</span>
-
-								<a></a>
-						</label>
+						<div class="radio">
+  							<label> 
+    							<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"> SEP088 (************6571)
+  							</label>
+						</div>
 					</td>
   				</tr>
   				<tr>
 					<td class="account-cell">
-						UNNAMED (************4234)
-					</td>
-					<td class="share-cell">
-						<label class="switch-light switch-candy" onclick="">
-							<input type="checkbox">
-								<span>
-								<span>No</span>
-								<span>Yes</span>
-								</span>
-
-								<a></a>
-						</label>
+						<div class="radio">
+  							<label> 
+    							<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"> UNNAMED (************4234)
+  							</label>
+						</div>
 					</td>
   				</tr>
   				</tbody>
@@ -130,8 +88,14 @@
 
 		</div>
 		<div class="panel-footer panel-footer-ac">
-			  <a class="btn btn-lg btn-hybrid" href="#">Continue <i class="fa fa-chevron-right"></i></a>
-		  	</div> <!-- close panel-footer -->
+			<div style="width:60%;float:left;">
+			  <a class="btn btn-lg btn-hybrid" href="#">Yes, Continue <i class="fa fa-chevron-right"></i></a>
+			</div>
+			<div style="width:40%;float:left;padding-left:20px;">
+			  <a class="btn btn-lg btn-hybrid btn-secondary" href="#">No Match</a>
+			</div>
+			<div class="clearfix"></div>
+		 </div> <!-- close panel-footer -->
 	</div> <!-- /close col-md-12 -->
 		
 		

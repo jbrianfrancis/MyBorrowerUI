@@ -71,22 +71,8 @@
 
 			   			<p class="xpadding10"><small class="inverse"><span class="glyphicon glyphicon-lock"></span> <strong>Secure &amp; Protected</strong><br /> We will use your login information to access a limited view of your account(s). We will not be able to manage or change anything about your accounts.</small></p>
 							
-						</div> <!-- close col-md-6 -->
-						
-						<!-- <div class="col-md-6">
-							
-							<div class="bank-info">
-							
-							<p class="tiny-caps">Bank Website</p>
-							
-							<p><img class="bank-screenshot" src="images/screenshot-ab.png" alt="American Bank of Texas (Seguin, Highland Lakes, Austin, San Antonio, Fredericksburg, Temple)"></p>
-			
-							<p><small class="inverse">If the screenshot above isn't of your bank's website you should probably <a href="#">try a new search</a> to find your bank.</small></p>
-							
-						</div> --> <!-- close bank-info -->
-							
-						</div><!-- close col-md-6 -->
-						
+						</div> <!-- close col-md-6 col-md-offsert-3 -->
+												
 					</div> <!-- close row -->
 					
 					
