@@ -17,6 +17,7 @@
 	
 	<!-- TOGGLE SWITCH STYLES -->
 	<link href="css/toggle-switch.css" rel="stylesheet">
+
 	<link href="ac.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -34,15 +35,6 @@
 	</div>
 
 	<div class="container">
-	<!--<div class="row">
-		
-		<div class="col-md-12">
-			
-			<h3><i class="fa fa-random"></i> Share Accounts</h3>
-		<p class="process-type">We noticed that you have additional accounts available to share from your bank. If you prefer you can share these accounts now.</p>
-
-		</div>
-	</div> -->
 	<div class="row">
 	<div class="col-md-8 col-md-offset-2">
 			
