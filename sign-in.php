@@ -41,14 +41,14 @@
 		    <input type="text" class="form-control" placeholder="Personal Access Code">
 		</div>
 
-	  <p class="resend"><a href="#">Resend Personal Access Code &nbsp;<i class="fa fa-caret-right"></i></a></p>
+	  <p class="resend"><a href="#">Resend <i class="fa fa-caret-right"></i></a></p>
 	  
 	  
 	<!-- Agree to Terms of Service -->
 
 	<div class="terms-box">
 
-		<small class="terms-copy">Do you accept the ACCOUNTCHEK <a href="#" data-toggle="modal" data-target="#Terms">Terms of Service</a> and <a href="#" data-toggle="modal" data-target="#Privacy">Privacy Policy</a>?</small>
+		<small class="terms-copy">Accept the <a href="#" data-toggle="modal" data-target="#Terms">Terms of Service</a> and <a href="#" data-toggle="modal" data-target="#Privacy">Privacy Policy</a></small>
 
 		<label class="switch-light switch-candy" onclick="" style="margin-bottom:10px;margin-right:50%;margin-top:10px;margin-bottom:24px;">
 			<input type="checkbox">

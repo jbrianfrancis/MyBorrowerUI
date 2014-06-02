@@ -638,12 +638,15 @@ h4.bank-name {
 .terms-box {
   padding-top: 6px;
   padding-bottom: 22px;
+  padding-left: 4px;
   border: none;
 }
 .terms-copy {
   font-size: 13px;
   line-height: 100%;
   font-weight: 400;
+  padding-top: 0;
+  margin-top: 0;
 }
 @media all and (min-width: 768px) {
   .terms-copy {
@@ -760,11 +763,11 @@ h4.bank-name {
 }
 .white-header {
   padding: 7px 0 6px 0;
-  text-align: center;
 }
 .white-header img {
-  padding-bottom: 15px;
-  padding-top: 20px;
+  padding-bottom: 12px;
+  padding-top: 16px;
+  padding-left: 20px;
 }
 @media all and (min-width: 992px) {
   .white-header img {
@@ -1101,9 +1104,9 @@ th.xpadding-left-10 {
 }
 .resend {
   font-size: 14px;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  margin-left: 4px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  margin-left: 3px;
   font-weight: 400;
 }
 @media all and (min-width: 768px) {
@@ -1405,6 +1408,7 @@ label.switch-light.switch-candy {
 }
 .form-signin .form-control {
   padding-left: 30px;
+  height: 50px;
   border-color: #ddd;
   margin-left: 0px;
   margin-bottom: 10px;
