@@ -36,7 +36,7 @@
 	<div class="panel panel-default panel-signin">
 	  <div class="panel-body panel-body-signin">
 		<!-- <h3 style="margin-top:0;">Sign-in</h3> -->
-		    <input type="text" class="form-control email-address" placeholder="Email Address">
+		    <input type="text" class="form-control email-address" placeholder="Email Address" style="box-shadow:none !important; box-shadow:0 !important;">
 		    <input type="tel" class="form-control" placeholder="Last 4 digits of SSN/EIN">
 		    <input type="text" class="form-control" placeholder="Personal Access Code">
 		</div>
