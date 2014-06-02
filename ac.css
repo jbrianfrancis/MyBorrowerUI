@@ -1108,9 +1108,9 @@ th.xpadding-left-10 {
   padding-left: 10px;
 }
 .resend {
-  font-size: 14px;
-  padding-top: 2px;
-  padding-bottom: 3px;
+  font-size: 12px;
+  padding-top: 0;
+  padding-bottom: 2px;
   margin-left: 3px;
   font-weight: 400;
 }
