@@ -1415,6 +1415,7 @@ label.switch-light.switch-candy {
   width: 100%;
   font-size: 18px;
   color: #333;
+  box-shadow: none;
 }
 .form-group label.tiny-caps {
   display: none;
