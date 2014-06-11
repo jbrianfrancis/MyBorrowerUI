@@ -1198,6 +1198,29 @@ th.xpadding-left-10 {
     margin-top: 0;
   }
 }
+.ac-alert-error {
+  color: white;
+  background-color: #cc0000;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+  margin-top: 0;
+  font-size: 14px;
+}
+.ac-alert-error i {
+  color: white;
+  padding-right: 10px;
+}
+@media all and (min-width: 992px) {
+  .ac-alert-error {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 22px;
+    padding-right: 4em;
+    padding-left: 4em;
+    margin-top: 0;
+  }
+}
 .close {
   float: right;
   font-size: 21px;
