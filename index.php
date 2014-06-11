@@ -42,6 +42,10 @@
     				<h4 class="list-group-item-heading">Bank Sign-in</h4>
     				<p class="list-group-item-text"></p>
   				</a>
+          <a href="bank-sign-in-error.php" target="_blank" class="list-group-item">
+            <h4 class="list-group-item-heading">Bank Sign-in Error</h4>
+            <p class="list-group-item-text"></p>
+          </a>
           <a href="challenge.php" target="_blank" class="list-group-item">
             <h4 class="list-group-item-heading">Bank Challenge</h4>
             <p class="list-group-item-text"></p>
