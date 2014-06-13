@@ -1388,6 +1388,40 @@ label.switch-light.switch-candy {
 .panel-body-signin {
   padding: 0;
 }
+footer {
+  text-align: center;
+  color: #999;
+  margin-top: 1.5em;
+}
+footer h5 {
+  font-weight: 600;
+  color: #999;
+  margin: 0;
+  padding: 0 0 3px 0;
+  font-size: 13px;
+}
+footer p {
+  line-height: 100%;
+  color: #999;
+}
+footer p img {
+  margin: 14px 0 4px 0;
+  padding: 0;
+}
+footer p small {
+  font-size: 11px;
+  color: #999;
+}
+footer .copyright {
+  font-weight: 600;
+  font-size: 11px;
+  color: #999;
+}
+@media all and (min-width: 768px) {
+  footer {
+    margin-top: 3em;
+  }
+}
 @media (min-width: 768px) {
   .panel-footer-ac {
     padding: 18px 0 12px 0px;

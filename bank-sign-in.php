@@ -69,7 +69,7 @@
 
 			   			<p class="xpadding10">Not your bank? Try a <a href="#">new search</a></p>
 
-			   			<p class="xpadding10"><small class="inverse"><span class="glyphicon glyphicon-lock"></span> <strong>Secure &amp; Protected</strong><br /> We will use your login information to access a limited view of your account(s). We will not be able to manage or change anything about your accounts.</small></p>
+			   			<!-- <p class="xpadding10"><small class="inverse"><span class="glyphicon glyphicon-lock"></span> <strong>Secure &amp; Protected</strong><br /> We will use your login information to access a limited view of your account(s). We will not be able to manage or change anything about your accounts.</small></p> -->
 							
 						</div> <!-- close col-md-6 col-md-offsert-3 -->
 												

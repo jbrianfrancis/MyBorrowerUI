@@ -26,9 +26,9 @@
 
 
 <!-- Results header -->
+<div class="container">
 <div class="row">
 	<div class="col-md-12">
-		<div class="container">
 			
 			<h3><i class="fa fa-files-o"></i> Views</h3>
       <p class="process-type"></p>
