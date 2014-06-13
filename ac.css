@@ -1221,6 +1221,37 @@ th.xpadding-left-10 {
     margin-top: 0;
   }
 }
+.info-block {
+  position: relative;
+  background-color: #fbfbfb;
+  display: none;
+  padding: 14px;
+}
+.info-block p {
+  color: #777;
+  font-size: 12px;
+}
+@media all and (min-width: 768px) {
+  .info-block p {
+    font-size: 14px;
+  }
+}
+.info-block .question {
+  color: #666666;
+}
+@media all and (min-width: 768px) {
+  .info-block .question {
+    margin: 10px 0 4px 0;
+    padding: 0;
+    font-size: 18px;
+  }
+}
+@media all and (min-width: 768px) {
+  .info-block {
+    margin: 30px 0 0 0;
+    padding: 12px 24px 14px 24px;
+  }
+}
 .close {
   float: right;
   font-size: 21px;
