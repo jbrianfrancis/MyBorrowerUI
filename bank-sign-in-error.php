@@ -25,7 +25,7 @@
 	
 	<?php include("includes/header-banks.php"); ?>
 	<div class="alert alert-success ac-alert-error">
-		<i class="fa fa-exclamation-circle"></i> We weren't able to connect. Please confirm your login credentials with your bank and try again at <strong>around 1:15pm EST (about 30 minutes)</strong>. If there is another bank you'd like to try while waiting you can select Add New Bank below.
+		<i class="fa fa-exclamation-circle"></i> We weren't able to connect. Please try again at <strong>around 1:15pm EST (about 30 minutes)</strong>.
 	</div>
 	<div class="container">
 	<div class="row">
@@ -33,8 +33,8 @@
 			
 			<div class="info-block">
 		
-				<p class="question"><strong>Why do you need to wait so long before you try again?</strong></p>
-				<p>Because of the importance of security at your bank it is possible that continued unsuccessful attempts could cause your bank to <em>lock you out of all online access</em>. We know this would be a great inconvenience and the wait time will prevent the bank from viewing new attempts to connect as suspicious.</p>
+				<p class="question"><strong>Why the long wait before trying again?</strong></p>
+				<p>Trying again could cause your bank to <em>lock you out of all online access</em>. Waiting will prevent the bank from viewing new attempts to connect as suspicious.</p>
 
 			</div>
 
@@ -104,7 +104,7 @@
     <?php include("includes/footer.php"); ?>
     <script>
     $(document).ready(function() {
-    	$(".info-block").delay(3000).slideDown("slow");
+    	$(".info-block").delay(2000).slideDown("slow");
     })
     </script>
   </body>
