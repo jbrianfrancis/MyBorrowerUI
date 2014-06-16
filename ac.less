@@ -16,6 +16,7 @@
 @lightslate:#7f8c8d;
 @brightblue:#3f9bd7;
 @type: #444;
+@block-bg: #fbfbfb;
 @brightbluehover:darken(@brightblue, 10%);
 
 html {
@@ -92,6 +93,31 @@ a {
 		@media all and (min-width: @screen-sm) {
 			padding-left: 15px;
 		}
+	}
+}
+
+h4.bank-name-error {
+	background-color:@block-bg;
+	font-size:18px;
+	text-align:center;
+	margin-bottom:20px;
+	margin-top:10px;
+	padding:12px;
+	font-weight:600;
+	color:#666666;
+	span {
+		font-size:11px;
+		@media all and (min-width:@screen-sm) {
+			font-size:13px;
+			font-weight: 400;
+		}
+	}
+	@media all and (min-width:@screen-sm) {
+		margin-top:40px;
+		font-size:22px;
+		font-weight:500;
+		margin-bottom:30px;
+		padding:16px 10px 20px 26px;
 	}
 }
 
@@ -989,7 +1015,8 @@ progress {
 /* Loading State Page Styles */
 
 .loading-anim {
-	margin-top: 18%;
+	margin-top: 12%;
+	margin-bottom:8%;
 }
 
 #bowlG{
@@ -1261,7 +1288,7 @@ th.xpadding-left-10 {
 
 .info-block {
 	position:relative;
-	background-color:#fbfbfb;
+	background-color:@block-bg;
 	display: none;
 	padding:14px;
 	p {
