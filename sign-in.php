@@ -532,7 +532,7 @@
 				        </div>
 					
 	        <div class="modal-footer">
-	          <button type="button" class="btn btn-primary" data-dismiss="modal">Close Now</button>
+	          <button type="button" class="btn btn-lg btn-hybrid" data-dismiss="modal">Close</button>
 	        </div>
 	      </div><!-- /.modal-content -->
 	    </div><!-- /.modal-dialog -->
