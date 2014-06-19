@@ -39,7 +39,7 @@
 		  <table class="table table-ac">
 			<thead>
 			<tr>
-				<th>Bank Name</th>
+				<th colspan="3">Bank Name</th>
 			</tr>
 			</thead>
 			<tbody>
