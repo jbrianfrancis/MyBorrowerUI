@@ -329,7 +329,7 @@ h4.bank-name-error span {
     font-size: 30px;
     margin-top: 0;
     margin-left: 0;
-    margin-bottom: 24px;
+    margin-bottom: 44px;
   }
 }
 .radio label {
@@ -344,9 +344,19 @@ h3.panel-title {
     margin-left: 0;
   }
 }
+h3.panel-title-authorize {
+  margin: 0;
+}
+@media all and (min-width: 768px) {
+  h3.panel-title-authorize {
+    margin-top: 8px;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+}
 h3.panel-title.black strong {
   font-weight: 600;
-  color: #444444;
+  color: #34495e;
   font-size: 13px;
   margin-left: 0;
   padding-left: 0;
@@ -552,6 +562,7 @@ h3 {
   font-weight: 300;
   margin-top: 24px;
   margin-left: 0px;
+  color: #34495e;
 }
 @media all and (min-width: 768px) {
   h3 {

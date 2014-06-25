@@ -11,7 +11,7 @@
 	
 	<!-- Bootstrap 3 -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
 	
 	<!-- TOGGLE SWITCH STYLES -->
