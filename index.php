@@ -12,7 +12,7 @@
 	
     <!-- Custom styles for this template -->
     <link href="ac.css" rel="stylesheet">
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -26,9 +26,9 @@
 
 
 <!-- Results header -->
+<div class="container">
 <div class="row">
 	<div class="col-md-12">
-		<div class="container">
 			
 			<h3><i class="fa fa-files-o"></i> Views</h3>
       <p class="process-type"></p>
@@ -42,6 +42,18 @@
     				<h4 class="list-group-item-heading">Bank Sign-in</h4>
     				<p class="list-group-item-text"></p>
   				</a>
+          <a href="bank-sign-in-error-first.php" target="_blank" class="list-group-item">
+            <h4 class="list-group-item-heading">Bank Sign-in First Error</h4>
+            <p class="list-group-item-text"></p>
+          </a>
+          <a href="bank-sign-in-error.php" target="_blank" class="list-group-item">
+            <h4 class="list-group-item-heading">Bank Sign-in Error Again</h4>
+            <p class="list-group-item-text"></p>
+          </a>
+          <a href="bank-sign-in-error.php" target="_blank" class="list-group-item">
+            <h4 class="list-group-item-heading">Bank Sign-in Error Bank CTA</h4>
+            <p class="list-group-item-text"></p>
+          </a>
           <a href="challenge.php" target="_blank" class="list-group-item">
             <h4 class="list-group-item-heading">Bank Challenge</h4>
             <p class="list-group-item-text"></p>
@@ -54,6 +66,10 @@
     				<h4 class="list-group-item-heading">Share Accounts</h4>
     				<p class="list-group-item-text"></p>
   				</a>
+          <a href="share-nomatch.php" target="_blank" class="list-group-item">
+            <h4 class="list-group-item-heading">Share Account - No Match</h4>
+            <p class="list-group-item-text"></p>
+          </a>
           <a href="banks.php" target="_blank" class="list-group-item">
             <h4 class="list-group-item-heading">Banks</h4>
             <p class="list-group-item-text"></p>

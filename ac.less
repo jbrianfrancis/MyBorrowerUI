@@ -8,7 +8,7 @@
 @grey:#999999;
 @signingrey:#f0f0f1;
 @successgreen:#27ae60;
-@acwarning:#eb771a;
+@acwarning:#ffffcc;
 @acerror:#cc0000;
 @lightblue:#86bbd5;
 @slateblue:#34495e;
@@ -16,6 +16,7 @@
 @lightslate:#7f8c8d;
 @brightblue:#3f9bd7;
 @type: #444;
+@block-bg: #fbfbfb;
 @brightbluehover:darken(@brightblue, 10%);
 
 html {
@@ -95,6 +96,31 @@ a {
 	}
 }
 
+h4.bank-name-error {
+	background-color:@block-bg;
+	font-size:18px;
+	text-align:center;
+	margin-bottom:20px;
+	margin-top:10px;
+	padding:12px;
+	font-weight:600;
+	color:#666666;
+	span {
+		font-size:11px;
+		@media all and (min-width:@screen-sm) {
+			font-size:13px;
+			font-weight: 400;
+		}
+	}
+	@media all and (min-width:@screen-sm) {
+		margin-top:40px;
+		font-size:22px;
+		font-weight:500;
+		margin-bottom:30px;
+		padding:16px 10px 20px 26px;
+	}
+}
+
 .navbar {
 	padding:0;
 	background-color: #34495e;
@@ -151,11 +177,11 @@ a {
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
 	color:#fff;
 	@media all and (min-width: @screen-sm) {
-		color:#777;
+		color:#fff;
 	}
 }
 
-input[type="checkbox"], input[type="radio"] {
+/* input[type="checkbox"], input[type="radio"] {
 	padding: 10px;
 	box-sizing: border-box;
 	-webkit-appearance: none;
@@ -164,7 +190,7 @@ input[type="checkbox"], input[type="radio"] {
 	padding: 15px;
 	float: left;
 	margin-right: 20px;
-}
+} */
 
 .basic-shadow {
 	box-shadow: 0px 1px 0px #efefef;
@@ -309,7 +335,7 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 .panel-title-authorize {
-	color: #34495e;
+	color: @slateblue;
     font-size: 24px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -318,7 +344,13 @@ input[type="checkbox"], input[type="radio"] {
 		font-size:30px;
 		margin-top:0;
 		margin-left: 0;
-		margin-bottom:24px;
+		margin-bottom:44px;
+	}
+}
+
+.radio {
+	label {
+		margin-left:8px;
 	}
 }
 
@@ -330,12 +362,24 @@ h3.panel-title {
 	}
 }
 
+h3.panel-title-authorize {
+	margin:0;
+	@media all and (min-width:@screen-sm) {
+		margin-top:8px;
+		margin-left:0;
+		margin-bottom: 40px;
+	}
+}
+
 h3.panel-title.black strong {
 	font-weight:600;
-	color:@type;
+	color:@slateblue;
 	font-size:13px;
 	margin-left:0;
 	padding-left:0;
+	em {
+		color:#cc0000;
+	}
 	@media all and (min-width: @screen-sm) {
 		font-weight: 400;
     	font-size: 16px;
@@ -346,9 +390,15 @@ h3.panel-title.black strong {
 	}
 } 
 
+.unmatched {
+	margin-bottom:20px;
+	margin-top: 20px;
+}
+
 small {
 	font-size:14px;
 	color: @type;
+	padding-top:20px;
 }
 
 small.inverse {
@@ -535,6 +585,7 @@ h3 {
 	font-weight: 300;
 	margin-top: 24px;
 	margin-left: 0px;
+	color:@slateblue;
 	@media all and (min-width: @screen-sm) {
 		font-size: 30px;
     	margin-top: 40px;
@@ -605,8 +656,6 @@ h4.bank-name {
 	width:230px;
 }
 
-
-
 .panel-primary>.panel-heading {
     color: #fff;
     background-color: @acblue;
@@ -628,6 +677,7 @@ h4.bank-name {
 
 .xpadding-10 {
 	padding-top:10px;
+	text-align:justify;
 }
 
 .notification {
@@ -663,14 +713,20 @@ h4.bank-name {
 
 .terms-box {
 	padding-top: 6px;
-  	padding-bottom: 22px;
+  	padding-bottom: 8px;
+  	padding-left:4px;
     border: none;
+    @media all and (min-width:@screen-sm) {
+    	padding-bottom: 22px;
+    }
 }
 
 .terms-copy {
 	font-size:13px;
 	line-height:100%;
 	font-weight:400;
+	padding-top:0;
+	margin-top:0;
 	@media all and (min-width: @screen-sm) {
 		font-size:14px;
 	}
@@ -785,10 +841,10 @@ h4.bank-name {
 
 .white-header {
 	padding:7px 0 6px 0;
-	text-align: center;
 	img {
-        padding-bottom: 15px;
-        padding-top: 20px;
+        padding-bottom: 12px;
+        padding-top: 16px;
+        padding-left:20px;
         @media all and (min-width: @screen-md) {
 			margin-top: -60px;
 		}
@@ -969,7 +1025,8 @@ progress {
 /* Loading State Page Styles */
 
 .loading-anim {
-	margin-top: 18%;
+	margin-top: 12%;
+	margin-bottom:8%;
 }
 
 #bowlG{
@@ -1125,6 +1182,7 @@ transform:rotate(0deg)}
 
 .xpadding10 {
 	padding-top:20px;
+	text-align: justify;
 }
 
 th.xpadding-left-10 {
@@ -1132,28 +1190,31 @@ th.xpadding-left-10 {
 }
 
 .resend {
-	font-size: 14px;
-	padding-top: 5px;
-    padding-bottom: 6px;
-    margin-left: 4px;
+	font-size: 12px;
+	padding-top: 0;
+    padding-bottom: 2px;
+    margin-left: 3px;
     font-weight: 400;
   	@media all and (min-width: @screen-sm) {
     	padding-top: 6px;
   		padding-bottom: 6px;
-  		font-weight: 300;
-  		font-size:18px;
+  		font-weight: 400;
+  		font-size:14px;
   	}
+}
+
+.switch-candy a {
+	background-color:#333;
 }
 
 .alert {
 	font-size:12px;
 	@media all and (min-width: @screen-sm) {
-		font-size:14px;
+		font-size:13px;
 	}
 }
 
 .ac-alert-success {
-	display: none;
 	color: #fff;
     background-color: #2dc36c;
     border-radius: 0;
@@ -1169,6 +1230,95 @@ th.xpadding-left-10 {
 		font-size:16px;
 		margin-bottom:0;
 		margin-top:0;
+	}
+}
+
+.ac-alert-warning {
+	color: #5e5013;
+    background-color: #ffeda7;
+    border-radius: 0;
+    border: none;
+    text-align: center;
+    margin-top: 0;
+    font-size:14px;
+    display:none;
+	i {
+		color:#5e5013;
+		padding-right:10px;
+	}
+	@media all and (min-width: @screen-md) {
+		font-weight: 400;
+		font-size:16px;
+		margin-bottom:22px;
+		margin-top:0;
+	}
+}
+
+.ac-alert-info {
+	color: @slateblue;
+    background-color: #fafafa;
+    border-radius: 0;
+    border: none;
+    text-align: center;
+    margin-top: 0;
+    font-size:14px;
+	i {
+		color:@slateblue;
+		padding-right:10px;
+	}
+	@media all and (min-width: @screen-md) {
+		font-weight: 400;
+		font-size:16px;
+		margin-bottom:22px;
+		margin-top:0;
+	}
+}
+
+.ac-alert-error {
+	color: white;
+    background-color: @acerror;
+    border-radius: 0;
+    border: none;
+    text-align: center;
+    margin-top: 0;
+    font-size:14px;
+	i {
+		color:white;
+		padding-right:10px;
+	}
+	@media all and (min-width: @screen-md) {
+		font-weight: 400;
+		font-size:16px;
+		margin-bottom:22px;
+		padding-right:4em;
+		padding-left:4em;
+		margin-top:0;
+	}
+}
+
+.info-block {
+	position:relative;
+	background-color:@block-bg;
+	display: none;
+	padding:14px;
+	p {
+		color:#777;
+		font-size:12px;
+		@media all and (min-width:@screen-sm) {
+			font-size: 14px;
+		}
+	}
+	.question {
+		color:#666666;
+		@media all and (min-width:@screen-sm) {
+			margin:10px 0 4px 0;
+			padding:0;
+			font-size:18px;
+		}
+	}
+	@media all and (min-width:@screen-sm) {
+		margin:30px 0 0 0;
+		padding:12px 24px 14px 24px;
 	}
 }
 
@@ -1254,6 +1404,19 @@ label.switch-light.switch-candy {
     }
 }
 
+.btn-secondary {
+	background-color: #efefef;
+    border-color: #efefef;
+    transition: all 0.8s ease;
+    box-shadow: 0px 5px 0px #ccc;
+    color:#222;
+    &:hover {
+      	background-color: #e5e5e5;
+      	border-color:#e5e5e5;
+      	color:#222;
+    }
+}
+
 .btn-find-bank {
 	display: block;
 	width: 100%;
@@ -1303,6 +1466,38 @@ label.switch-light.switch-candy {
 	padding:0;
 }
 
+footer {
+	text-align: center;
+	color:#999;
+	margin-top:1.5em;
+	h5 {
+		font-weight:600;
+		color:#999;
+		margin:0;
+		padding:0 0 3px 0;
+		font-size: 13px;
+	}
+	p {
+		line-height: 100%;
+		color:#999;
+		img {
+			margin:14px 0 4px 0;
+			padding:0;
+		}
+		small {
+			font-size:11px;
+			color:#999;
+		}
+	}
+	.copyright {
+		font-weight:600;
+		font-size:11px;
+		color:#999;
+	}
+	@media all and (min-width:@screen-sm) {
+		margin-top:3em;
+	}
+}
 @media (min-width: @screen-sm) {
 	.panel-footer-ac {
 		padding:18px 0 12px 0px;
@@ -1377,8 +1572,8 @@ label.switch-light.switch-candy {
 
 .form-control {
 	height: 65px;
-    color: #444;
-    border: 1px solid #eee;
+    color: #333;
+    border: 1px solid #ccc;
     box-shadow: none;
     font-weight: 400;
     font-size: 18px;
@@ -1394,12 +1589,24 @@ label.switch-light.switch-candy {
 .form-signin {
 	.form-control {
 		padding-left: 30px;   
-        border-color: #efefef;
+		height: 50px;
+        border-color: #ddd;
         margin-left: 0px;
         margin-bottom:10px;
         width: 100%;
     	font-size:18px;
-        color: #ccc; 
+        color: #333; 
+        box-shadow: none;
+        -webkit-appearance:none;
+        @media all and (min-width:@screen-sm) {
+        	height:65px;
+        }
+	}
+}
+
+.form-group {
+	label.tiny-caps {
+		display: none;
 	}
 }
 
@@ -1427,6 +1634,12 @@ label.switch-light.switch-candy {
       	text-shadow: 1px 1px #999;
        	font-size:1.2em;
     }
+}
+
+.bank-cell {
+	@media all and (min-width:@screen-sm) {
+		min-width:400px;
+	}
 }
 
 @media (min-width: @screen-sm) {
@@ -1531,4 +1744,8 @@ td.share-cell {
 
 .container {
 	max-width:950px;
+}
+.btn:active {
+	top:6px;
+	box-shadow: 0px 5px 0px #3187C0;
 }

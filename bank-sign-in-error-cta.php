@@ -10,7 +10,7 @@
     <title>ACCOUNTCHEK - Your Banks</title>
 
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
 	
     <!-- Custom styles for this template -->
@@ -24,12 +24,20 @@
   <body>
 	
 	<?php include("includes/header-banks.php"); ?>
-	
+	<div class="alert alert-success ac-alert-error">
+		<i class="fa fa-exclamation-circle"></i> We weren't able to connect. Please try again at <strong>around 1:15pm EST (about 30 minutes)</strong>.
+	</div>
 	<div class="container">
 	<div class="row">
 		<div class="col-md-12">
 			
+			<div class="info-block">
 		
+				<p class="question"><strong>Visit your bank's website</strong></p>
+				<p>We encourage you to <a href="#">visit your bank's website</a> to confirm that the credentials you've entered work.</p>
+
+			</div>
+
 		<h3><i class="fa fa-building-o"></i> Your Banks</h3>
 		<p class="process-type">The following banks have been added to ACCOUNTCHEK.</p>
 		
@@ -45,24 +53,14 @@
 			<tbody>
 			<tr>
 				<td style="vertical-align:middle;" class="bank-cell">
-						Simple - Visa Debit Card<br>
-						<small><strong>No</strong> accounts shared</small>
+					Bank of America<br>
+					<small><strong>No</strong> accounts shared</small>
 				</td>
-				<td class="enrolled-cell"><p class="status-icon"><i class="fa fa-check-circle fa-2x"></i></p></td>
-				<td style="vertical-align:middle;">
-						<p class="status-action"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-plus-square"></i> Enroll Now</a></p>
-				</td>
-			</tr>
-			<tr>
-				<td style="vertical-align:middle;">
-					<a href="nav-bank-details.php">American Bank</a><br>
-					<small><strong>2 of 6</strong> accounts shared</small>
-				</td>
-				<td class="enrolled-cell">
-					<p class="status-icon"><i class="fa fa-check-circle fa-2x"></i></p>
+				<td class="enrolled-cell warning-icon" style="vertical-align:middle;">
+					<p class="status-icon acerror"><i class="fa fa-exclamation-circle fa-2x"></i></p>
 				</td>
 				<td>
-					<p class="status-action"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-plus"></i> Share More</a></p>
+					<p class="status-action"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-repeat"></i> Try Again</a></p>
 				</td>
 			</tr>
 			<!-- <tr>
@@ -104,5 +102,10 @@
 	</div> <!-- close container -->
 	
     <?php include("includes/footer.php"); ?>
+    <script>
+    $(document).ready(function() {
+    	$(".info-block").delay(2000).slideDown("slow");
+    })
+    </script>
   </body>
 </html>

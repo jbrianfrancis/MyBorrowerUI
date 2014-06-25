@@ -11,14 +11,14 @@
 	
 	<!-- Bootstrap 3 -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
-	
-    <!-- ACCOUNTCHEK STYLES -->
-    <link href="ac.css" rel="stylesheet">
 	
 	<!-- TOGGLE SWITCH STYLES -->
 	<link href="css/toggle-switch.css" rel="stylesheet">
+
+	<!-- ACCOUNTCHEK STYLES -->
+    <link href="ac.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,32 +36,28 @@
 	<div class="panel panel-default panel-signin">
 	  <div class="panel-body panel-body-signin">
 		<!-- <h3 style="margin-top:0;">Sign-in</h3> -->
-	  
-		    <input type="text" class="form-control" placeholder="Email Address" value="johndoe@gmail.com" disabled>
-	  
-		    <input type="tel" class="form-control" placeholder="Last 4 digits of SSN/EIN" autofocus>
-	  
-		    <input type="text" class="form-control" placeholder="Personal Access Code" value="C74H-G95M-R36D" disabled>
-
+		    <input type="text" class="form-control email-address" placeholder="Email Address">
+		    <input type="tel" class="form-control" placeholder="Last 4 digits of SSN/EIN">
+		    <input type="text" class="form-control" placeholder="Personal Access Code">
 		</div>
 
-	  <p class="resend"><a href="#">Resend Personal Access Code &nbsp;<i class="fa fa-caret-right"></i></a></p>
+	  <p class="resend"><a href="#">Resend <i class="fa fa-caret-right"></i></a></p>
 	  
 	  
 	<!-- Agree to Terms of Service -->
 
 	<div class="terms-box">
 
-		<input type="checkbox"> <small class="terms-copy">Do you accept the ACCOUNTCHEK <a href="#" data-toggle="modal" data-target="#Terms">Terms of Service</a> and <a href="#" data-toggle="modal" data-target="#Privacy">Privacy Policy</a>?</small>
+		<small class="terms-copy">Accept the <a href="#" data-toggle="modal" data-target="#Terms">Terms of Service</a> and <a href="#" data-toggle="modal" data-target="#Privacy">Privacy Policy</a></small>
 
-		<!-- <label class="switch-light switch-candy" onclick="" style="margin-bottom:10px;margin-right:50%;margin-top:10px;margin-bottom:24px;">
+		<label class="switch-light switch-candy" onclick="" style="margin-bottom:10px;margin-right:50%;margin-top:10px;margin-bottom:24px;">
 			<input type="checkbox">
 				<span>
 				<span>No</span>
 				<span>Yes</span>
 				</span>
 				<a></a>
-		</label> -->
+		</label>
 	
 
 	</div>
@@ -536,7 +532,7 @@
 				        </div>
 					
 	        <div class="modal-footer">
-	          <button type="button" class="btn btn-primary" data-dismiss="modal">Close Now</button>
+	          <button type="button" class="btn btn-lg btn-hybrid" data-dismiss="modal">Close</button>
 	        </div>
 	      </div><!-- /.modal-content -->
 	    </div><!-- /.modal-dialog -->
@@ -741,7 +737,7 @@
 	
 	<!-- Sign-in Button -->
 		
-	<a href="#" class="btn btn-lg btn-hybrid btn-block" style="display:block;width:100%;">Sign-in &nbsp;<i class="fa fa-caret-right"></i></a>
+	<a href="http://google.com" class="btn btn-lg btn-hybrid btn-block" style="display:block;width:100%;">Sign-in &nbsp;<i class="fa fa-caret-right"></i></a>
 		
 		</div>
 	</div>	
@@ -750,6 +746,12 @@
 </div>
 
 <?php include("includes/footer.php"); ?>
-
+	<script>
+		$("input.form-control").keyup(function(event){
+    		if(event.keyCode == 13){
+        	$("a.").click();
+    		}
+		});
+	</script>
   </body>
 </html>

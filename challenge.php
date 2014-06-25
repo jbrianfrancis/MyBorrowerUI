@@ -13,7 +13,7 @@
 	
     <!-- Custom styles for this template -->
     <link href="ac.css" rel="stylesheet">
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -33,7 +33,7 @@
 		
 
 			<div class="row">
-			  <div class="col-md-10 col-md-offset-1">
+			  <div class="col-md-6 col-md-offset-3">
 		
 				  <div class="panel panel-default">
 				    <div class="panel-heading panel-heading-authorize">
