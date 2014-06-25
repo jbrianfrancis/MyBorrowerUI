@@ -30,7 +30,7 @@
 		<div class="col-md-12">
 			
 		
-		<h3><i class="fa fa-building-o"></i> Your Banks</h3>
+		<h3><i class="fa fa-university"></i> Your Banks</h3>
 		<p class="process-type">The following banks have been added to ACCOUNTCHEK.</p>
 		
 		<div class="panel panel-default panel-ac">

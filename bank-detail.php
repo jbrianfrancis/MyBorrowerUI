@@ -37,7 +37,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-			<h3><i class="fa fa-building-o"></i> American Bank of Texas (Seguin, Highland Lakes, Austin, San Antonio, Fredericksburg, Temple)</h3>
+			<h3><i class="fa fa-university"></i> American Bank of Texas (Seguin, Highland Lakes, Austin, San Antonio, Fredericksburg, Temple)</h3>
 							
 			<div class="panel panel-default panel-ac">
 			  <!-- Default panel contents -->

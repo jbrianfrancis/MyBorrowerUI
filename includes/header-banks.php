@@ -12,7 +12,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><i class="fa fa-user fa-fw"></i> John Doe</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-building-o"></i> Banks <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-university"></i> Banks <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="#"><i class="fa fa-bars fa-fw"></i> View All</a></li>
             <li><a href="#"><i class="fa fa-plus fa-fw"></i> Add New</a></li>

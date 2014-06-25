@@ -45,7 +45,7 @@
 					
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3">
-							<h3 class="panel-title panel-title-authorize"><i class="fa fa-building-o"></i> Your Bank Sign in</h3>
+							<h3 class="panel-title panel-title-authorize"><i class="fa fa-university"></i> Your Bank Sign in</h3>
 							<p class="tiny-caps">Bank Name</p>
 						     <h5 class="fi-name">American Bank of Texas (Seguin, Highland Lakes, Austin, San Antonio, Fredericksburg, Temple)</h5>
 				 

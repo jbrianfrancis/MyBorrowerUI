@@ -32,7 +32,7 @@
 		
 <!-- Add New FI header -->
 
-	<h3><i class="fa fa-building-o"></i> Add New Bank</h3>	
+	<h3><i class="fa fa-university"></i> Add New Bank</h3>	
 
 	<p class="process-type-banks">Choose a bank from the top 10 list, or find your bank using either the <strong>name of the bank</strong> or by <strong>routing number</strong>.</p>
 	

@@ -37,7 +37,7 @@
 		
 				  <div class="panel panel-default">
 				    <div class="panel-heading panel-heading-authorize">
-				      <h3 class="panel-title panel-title-authorize"><i class="fa fa-building-o"></i> Your Bank Security</h3>
+				      <h3 class="panel-title panel-title-authorize"><i class="fa fa-university"></i> Your Bank Security</h3>
 				    </div> <!-- close panel-heading -->
 					
 				    <div class="panel-body panel-body-ac">
