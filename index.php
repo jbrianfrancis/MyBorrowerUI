@@ -99,8 +99,16 @@
             <h4 class="list-group-item-heading">FAQ</h4>
             <p class="list-group-item-text"></p>
           </a>
+          <a href="faq-login.php" target="_blank" class="list-group-item">
+            <h4 class="list-group-item-heading">FAQ - Login</h4>
+            <p class="list-group-item-text"></p>
+          </a>
           <a href="customer-service.php" target="_blank" class="list-group-item">
             <h4 class="list-group-item-heading">Customer Service</h4>
+            <p class="list-group-item-text"></p>
+          </a>
+          <a href="customer-service-login.php" target="_blank" class="list-group-item">
+            <h4 class="list-group-item-heading">Customer Service - Login</h4>
             <p class="list-group-item-text"></p>
           </a>
 			</div>
