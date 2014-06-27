@@ -8,6 +8,10 @@
 
 		<!-- <h5><i class="fa fa-lock"></i> Secure &amp; Protected</h5> -->
 		<p><small><i class="fa fa-lock"></i> We will use your login information to access a limited view of your account(s). We will not be able to manage or change anything about your accounts.</small></p>
+		
+		<p class="service-links">Need help? Contact <a href="customer-service.php">customer service</a>! &nbsp;|&nbsp; Learn more by reading the <a href="faq.php" target="_main">FAQ</a>.</p>
+
+
 		<p class="copyright">&copy;2008 - 2014. The AccountChek Company, LLC. All Rights Reserved</p>
 
 

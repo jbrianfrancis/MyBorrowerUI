@@ -220,6 +220,39 @@ h4.bank-name-error {
 	}
 }
 
+.borrower-faq {
+	margin-top:30px;
+	padding-left:20px;
+	font-size:13px;
+	font-weight:bold;
+	color:@slateblue;
+	@media all and (min-width:@screen-sm) {
+		margin-top:40px;
+		margin-left:0;
+		padding-left:20px;
+	}
+	li {
+		margin-bottom:15px;
+		@media all and (min-width:@screen-sm) {
+			margin-bottom:30px;
+		}
+	}
+	p {
+		strong {
+			font-size:1.1em
+		}
+		color:@type;
+		font-weight:normal;
+		@media all and (min-width:@screen-sm) {
+			font-size:1em;
+		}
+	}
+}
+
+.contact-info-list {
+	padding-top:20px;
+}
+
 .btn-process {
 	height:100%;
 	display:block;
@@ -389,6 +422,39 @@ h3.panel-title.black strong {
   		padding-bottom:0;
 	}
 } 
+
+h4.service {
+	font-size:19px;
+	@media all and (min-width: @screen-sm) {
+		font-weight:@slateblue;
+		font-size:24px;
+	}
+}
+
+.service-data {
+	margin-top: 20px;
+	@media all and (min-width: @screen-sm) {
+		margin-top:30px;
+	}
+}
+
+.service-block {
+	background-color:#efefef;
+	padding:12px 12px 12px 30px;
+	margin:0 0 20px 0;
+	@media all and (min-width: @screen-sm) {
+		padding:16px 16px 16px 40px;
+		margin:0;
+	}
+	a {
+		color:@slateblue;
+		transition: all 0.5s ease;
+		&:hover {
+			color:@brightbluehover;
+			text-decoration: none;
+		}
+	}
+}
 
 .unmatched {
 	margin-bottom:20px;
@@ -888,6 +954,16 @@ h4.bank-name {
 	color:@lightslate;
 	@media all and (min-width: @screen-sm) {
 		font-size: 14px;
+	}
+}
+
+.service-footer {
+	.process-type
+}
+
+.service-footer {
+	@media all and (min-width: @screen-sm) {
+		margin-top:40px;
 	}
 }
 
@@ -1487,6 +1563,25 @@ footer {
 		small {
 			font-size:11px;
 			color:#999;
+		}
+	}
+	.customer-service {
+		@media all and (min-width:@screen-sm) {
+			text-align: right;
+		}
+	}
+	.faq {
+		@media all and (min-width:@screen-sm) {
+			text-align: left;
+		}
+	}
+	.service-links {
+		font-size:11px;
+		line-height:120%;
+		@media all and (min-width:@screen-sm) {
+			font-size:11px;
+			margin-top:20px;
+			margin-bottom:20px;
 		}
 	}
 	.copyright {
