@@ -32,7 +32,12 @@ a {
   color: #3498db;
 }
 .navbar {
-  min-height: 100px;
+  min-height: 78px;
+}
+@media all and (min-width: 768px) {
+  .navbar {
+    min-height: 100px;
+  }
 }
 .navbar,
 .navbar-default {
