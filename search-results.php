@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
     <title>ACCOUNTCHEK - Add New Bank</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css">
 	
     <!-- Custom styles for this template -->
     <link href="ac.css" rel="stylesheet">
