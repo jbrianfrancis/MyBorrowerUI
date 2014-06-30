@@ -25,8 +25,8 @@
 	
 	<?php include("includes/header-nobank.php"); ?>
 	
-	<div class="alert alert-success ac-alert-success">
-		Success! We've made the connection. Your bank now needs you to complete some additional security steps. 
+	<div class="alert alert-success ac-alert-success alert-dismissable">
+		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> Success! We've made the connection. Your bank now needs you to complete some additional security steps. 
 	</div>
 
 	<div class="container">

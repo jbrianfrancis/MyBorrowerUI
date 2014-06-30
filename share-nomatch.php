@@ -30,8 +30,8 @@
 	
 	<?php include("includes/header-nobank.php"); ?>
 
-	<div class="alert alert-success ac-alert-warning">
-		<i class="fa fa-exclamation-triangle"></i> We weren't able to match the account you listed with one from your bank. 
+	<div class="alert alert-success ac-alert-warning alert-dismissable">
+		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> <i class="fa fa-exclamation-triangle"></i> We weren't able to match the account you listed with one from your bank. 
 	</div>
 
 	<div class="container">

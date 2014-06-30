@@ -26,8 +26,8 @@
 	
 	<?php include("includes/header-nobank.php"); ?>
 	
-<div class="alert alert-success ac-alert-success">
-		Success! You have signed in to ACCOUNTCHEK. Now, we need to connect to your Bank. 
+<div class="alert alert-success ac-alert-success alert-dismissable">
+		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> Success! You have signed in to ACCOUNTCHEK. Now, we need to connect to your Bank. 
 	</div>
 
 	<div class="container">
@@ -93,10 +93,6 @@
 	
 
 	<?php include("includes/footer.php"); ?>
-	<script>
-		$(document).ready(function() {
-			$('.ac-alert-success').fadeIn().delay(3000).slideUp();
-		})
-	</script>
+	
   </body>
 </html>

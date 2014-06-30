@@ -29,8 +29,8 @@
 	
 	<?php include("includes/header-nobank.php"); ?>
 
-	<div class="alert alert-success ac-alert-success">
-		Success! We were able to connect to your bank and get a list of your accounts. 
+	<div class="alert alert-success ac-alert-success alert-dismissable">
+		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> Success! We were able to connect to your bank and get a list of your accounts. 
 	</div>
 
 	<div class="container">
