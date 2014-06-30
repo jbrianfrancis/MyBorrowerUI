@@ -60,10 +60,6 @@
 </div> <!-- close container -->	
 
     <?php include("includes/footer.php"); ?>
-	<script>
-		$(document).ready(function() {
-			$('.ac-alert-success').fadeIn().delay(3000).slideUp();
-		})
-	</script>
+	
   </body>
 </html>

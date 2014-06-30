@@ -175,10 +175,6 @@
 </div>
 
     <?php include("includes/footer.php"); ?>
-	<script>
-		$(document).ready(function() {
-			$('.ac-alert-success').fadeIn().delay(4000).slideUp();
-		})
-	</script>
+	
   </body>
 </html>
