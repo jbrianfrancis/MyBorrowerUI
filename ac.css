@@ -25,6 +25,30 @@ body {
     padding-top: 72px;
   }
 }
+.signedout-signin-resend {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.signedout-signin-resend .white-header {
+  padding: 7px 0 6px 0;
+}
+.signedout-signin-resend .white-header img {
+  padding-bottom: 12px;
+  padding-top: 16px;
+  padding-left: 20px;
+}
+@media all and (min-width: 992px) {
+  .signedout-signin-resend .white-header img {
+    margin-top: 0;
+  }
+}
+@media all and (min-width: 768px) {
+  .signedout-signin-resend .white-header {
+    padding: 18px 0 20px 15px;
+  }
+}
 p {
   color: #444444;
 }

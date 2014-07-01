@@ -38,6 +38,14 @@
     				<h4 class="list-group-item-heading">Sign-in</h4>
     				<p class="list-group-item-text"></p>
   				</a>
+          <a href="sign-in-resend.php" target="_blank" class="list-group-item">
+            <h4 class="list-group-item-heading">Sign-in - Resend</h4>
+            <p class="list-group-item-text"></p>
+          </a>
+          <a href="resend-pac.php" target="_blank" class="list-group-item">
+            <h4 class="list-group-item-heading">Resend Personal Access Code</h4>
+            <p class="list-group-item-text"></p>
+          </a>
   				<a href="bank-sign-in.php" target="_blank" class="list-group-item">
     				<h4 class="list-group-item-heading">Bank Sign-in</h4>
     				<p class="list-group-item-text"></p>
