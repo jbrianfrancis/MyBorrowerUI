@@ -737,7 +737,7 @@
 	
 	<!-- Sign-in Button -->
 		
-	<a href="http://google.com" class="btn btn-lg btn-hybrid btn-block" style="display:block;width:100%;">Sign-in &nbsp;<i class="fa fa-caret-right"></i></a>
+	<a href="#" class="btn btn-lg btn-hybrid btn-block" style="display:block;width:100%;"><span>Sign-in</span> &nbsp;<i class="fa fa-caret-right"></i></a>
 		
 		</div>
 	</div>	
@@ -747,10 +747,13 @@
 
 <?php include("includes/footer.php"); ?>
 	<script>
-		$("input.form-control").keyup(function(event){
-    		if(event.keyCode == 13){
-        	$("a.").click();
-    		}
+		$(document).ready(function () {
+			$("a.btn-hybrid").on("click", function () {
+				$(this).addClass("disabled");
+				$(".btn-hybrid i").addClass("fa-circle-o-notch fa-spin");
+				$(".btn-hybrid span").text("Signing In");
+				event.preventDefault;
+			});
 		});
 	</script>
   </body>

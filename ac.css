@@ -94,6 +94,9 @@ a {
     color: #2781bc;
   }
 }
+.navbar-default .navbar-nav > li:last-child {
+  padding-right: 60px;
+}
 .navbar-brand {
   padding: 0;
 }
@@ -1477,6 +1480,12 @@ label.switch-light.switch-candy {
   background-color: #3187C0;
   border-color: #3187C0;
   color: #fff;
+}
+.btn-hybrid:focus {
+  background-color: #3187C0;
+}
+.btn-hybrid:active {
+  background-color: #3187C0;
 }
 @media (min-width: 992px) {
   .btn-hybrid {
