@@ -748,11 +748,11 @@
 <?php include("includes/footer.php"); ?>
 	<script>
 		$(document).ready(function () {
-			$("a.btn-hybrid").on("click", function () {
+			$("a.btn-hybrid").on("click", function (event) {
+				event.preventDefault;
 				$(this).addClass("disabled");
 				$(".btn-hybrid i").addClass("fa-circle-o-notch fa-spin");
-				$(".btn-hybrid span").text("Signing In");
-				event.preventDefault;
+				$(".btn-hybrid span").text("Signing In...");
 			});
 		});
 	</script>
