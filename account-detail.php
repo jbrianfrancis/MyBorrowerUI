@@ -31,22 +31,21 @@
 			<div class="col-md-12">
 			
 			<div class="back-btn-container">
-				<a class="btn btn-default btn-sm" href="nav-bank-details.php"><i class="fa fa-arrow-left"></i> Back to Bank</a>
+				<a class="btn btn-default btn-sm" href="#"><i class="fa fa-arrow-left"></i> Back to Bank</a>
 			</div>
 
 			<h3><i class="fa fa-folder-open"></i> Operating (************4509) </h3>
-			<p class="process-type">Transactions from your checking account at <a href="#">Bank of America</a></p>
+			<p class="process-type">Transactions from your checking account.</p>
 						
 		<div class="panel panel-default panel-ac">
 			
 		  
 		  <!-- Table -->
-		<div class="table table-ac table-hover account-table">
-		  <table class="table">
+		  <table class="table table-ac table-hover account-table">
 			<thead>
 			<tr>
 				<th>Date</th>
-				<th>Description</th>
+				<th>Activity</th>
 				<th>Amount</th>
 			</tr>
 			</thead>
@@ -169,7 +168,6 @@
 			</tbody>
 		  </table>
 	  
-	  </div><!-- close table-responsive --> 
 			
 	</div> <!-- close panel -->
 		
