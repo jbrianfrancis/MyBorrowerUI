@@ -873,6 +873,9 @@ h4.bank-name {
     padding: 12px 12px;
     width: 30%;
   }
+  .btn-sm:active {
+    box-shadow: 0;
+  }
 }
 .panel-footer-ac {
   background-color: transparent;
@@ -1885,6 +1888,9 @@ td.share-cell {
   .back-btn-container {
     margin-top: 30px;
   }
+}
+.back-btn-container .btn:active {
+  box-shadow: none;
 }
 .spinner {
   margin: 100px auto 36px;
