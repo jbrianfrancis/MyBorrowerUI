@@ -1,4 +1,3 @@
-test text here
 <!DOCTYPE html>
 
 <html lang="en">
