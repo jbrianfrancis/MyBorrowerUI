@@ -31,7 +31,7 @@
 		<div class="row">	
 			
 			<div class="container text-center enrollment-success">		  
-				<p><i class="fa fa-smile-o fa-5x enrollment-success-green"></i></p>
+				<p><i class="fa fa-check fa-5x enrollment-success-green"></i></p>
 				
 				<h2 class="success-heading">Enrollment complete!</h2>
 				<p>You have successfully enrolled your bank into ACCOUNTCHEK and shared accounts for digital asset verification.</p>
