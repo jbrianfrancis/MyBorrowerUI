@@ -976,6 +976,12 @@ h4.bank-name {
 		font-size: 15px;
 		margin: 10px 0 10px 0;
 	}
+	.icon-text-success {
+		color:@successgreen;
+	}
+	a {
+		font-weight:500;
+	}
 }
 
 .process-type-banks {
@@ -1147,6 +1153,74 @@ table {
 	th:last-child {
 		@media all and (min-width: @screen-sm) {
 			text-align: right;
+		}
+	}
+}
+
+.bank-table {
+	.account-cell, .share-cell {
+		font-weight: 600;
+		@media all and (min-width: @screen-sm) {
+			font-weight:500;
+		}
+	}
+	td:last-child{
+		text-align:right;
+		font-weight: 600;
+		@media all and (min-width: @screen-sm) {
+			font-weight: 500;
+			text-align:right;
+		}
+	}
+	th:last-child {
+		text-align: right;
+		font-weight: 600;
+		@media all and (min-width: @screen-sm) {
+			font-weight: 500;
+			text-align: right;
+		}
+	}
+}
+
+.transaction-summary tbody>tr>td,
+.transaction-summary tfoot>tr>td {
+	border-top:1px dashed #e5e5e5 !important;
+	@media all and (min-width: @screen-sm) {
+		padding-left:14px;
+	}
+}
+
+.transaction-summary tfoot>tr>td {
+	padding-bottom:10px;
+	padding-top:10px;
+	a {
+		font-size: 12px;
+	}
+}
+
+.transaction-summary {
+	width:100%;
+	border:0;
+	border:none;
+	margin:0;
+	padding:0;
+	thead>th:last-child {
+		text-align: left;
+		color:black;
+	}
+	td {
+		font-size:14px;
+		text-align: left;
+		border-top:1px dotted #e5e5e5;
+	}
+	tbody>tr>td:last-child {
+		text-align: right;
+	}
+	tbody>tr>td:first-child {
+		font-weight: 500;
+		color:#777;
+		@media all and (min-width: @screen-sm) {
+			padding-left:12px;
 		}
 	}
 }
@@ -1854,6 +1928,9 @@ footer {
 .account-cell {
 	padding:10px 10px 0 10px;
 	width:60%;
+	a {
+		font-size:12px;
+	}
 	@media all and (min-width: @screen-md) {
 		padding-left: 10px;
 		color:@slateblue;
@@ -1981,4 +2058,8 @@ td.share-cell {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
+}
+
+table .collapse.in {
+	display:table-row;
 }

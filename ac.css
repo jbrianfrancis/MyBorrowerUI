@@ -954,6 +954,12 @@ h4.bank-name {
     margin: 10px 0 10px 0;
   }
 }
+.process-type .icon-text-success {
+  color: #27ae60;
+}
+.process-type a {
+  font-weight: 500;
+}
 .process-type-banks {
   font-size: 12px;
   padding: 0;
@@ -977,6 +983,12 @@ h4.bank-name {
     font-size: 15px;
     margin: 10px 0 10px 0;
   }
+}
+.service-footer .icon-text-success {
+  color: #27ae60;
+}
+.service-footer a {
+  font-weight: 500;
 }
 @media all and (min-width: 768px) {
   .service-footer {
@@ -1141,6 +1153,81 @@ table {
 @media all and (min-width: 768px) {
   .account-table th:last-child {
     text-align: right;
+  }
+}
+.bank-table .account-cell,
+.bank-table .share-cell {
+  font-weight: 600;
+}
+@media all and (min-width: 768px) {
+  .bank-table .account-cell,
+  .bank-table .share-cell {
+    font-weight: 500;
+  }
+}
+.bank-table td:last-child {
+  text-align: right;
+  font-weight: 600;
+}
+@media all and (min-width: 768px) {
+  .bank-table td:last-child {
+    font-weight: 500;
+    text-align: right;
+  }
+}
+.bank-table th:last-child {
+  text-align: right;
+  font-weight: 600;
+}
+@media all and (min-width: 768px) {
+  .bank-table th:last-child {
+    font-weight: 500;
+    text-align: right;
+  }
+}
+.transaction-summary tbody > tr > td,
+.transaction-summary tfoot > tr > td {
+  border-top: 1px dashed #e5e5e5 !important;
+}
+@media all and (min-width: 768px) {
+  .transaction-summary tbody > tr > td,
+  .transaction-summary tfoot > tr > td {
+    padding-left: 14px;
+  }
+}
+.transaction-summary tfoot > tr > td {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.transaction-summary tfoot > tr > td a {
+  font-size: 12px;
+}
+.transaction-summary {
+  width: 100%;
+  border: 0;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.transaction-summary thead > th:last-child {
+  text-align: left;
+  color: black;
+}
+.transaction-summary td {
+  font-size: 14px;
+  text-align: left;
+  border-top: 1px dotted #e5e5e5;
+}
+.transaction-summary tbody > tr > td:last-child {
+  text-align: right;
+}
+.transaction-summary tbody > tr > td:first-child {
+  font-weight: 500;
+  color: #777;
+}
+@media all and (min-width: 768px) {
+  .transaction-summary tbody > tr > td:first-child {
+    padding-left: 12px;
   }
 }
 progress {
@@ -1817,6 +1904,9 @@ footer .copyright {
   padding: 10px 10px 0 10px;
   width: 60%;
 }
+.account-cell a {
+  font-size: 12px;
+}
 @media all and (min-width: 992px) {
   .account-cell {
     padding-left: 10px;
@@ -1938,4 +2028,7 @@ td.share-cell {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
+}
+table .collapse.in {
+  display: table-row;
 }

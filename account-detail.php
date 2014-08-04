@@ -31,11 +31,11 @@
 			<div class="col-md-12">
 			
 			<div class="back-btn-container">
-				<a class="btn btn-default btn-sm" href="#"><i class="fa fa-arrow-left"></i> Back to Bank</a>
+				<a class="btn btn-default btn-sm" href="bank-detail.php"><i class="fa fa-arrow-left"></i> Back to Bank</a>
 			</div>
 
 			<h3><i class="fa fa-folder-open"></i> Operating (************4509) </h3>
-			<p class="process-type">Transactions from your checking account.</p>
+			<p class="process-type">Transactions from your shared checking account at Bank of America.</p>
 						
 		<div class="panel panel-default panel-ac">
 			
