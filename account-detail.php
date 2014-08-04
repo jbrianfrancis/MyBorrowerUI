@@ -27,23 +27,21 @@
 	<?php include("includes/header-banks.php"); ?>
 	
 	<div class="container">
-		<div class="col-md-12">
-		<div class="row">	
-					
-			<a class="btn btn-default btn-sm" href="nav-bank-details.php"><i class="fa fa-arrow-left"></i> Back to Bank</a>
-			<hr>
+		<div class="row">
+			<div class="col-md-12">
 			
-			<h4>American Bank of Texas (Seguin, Highland Lakes, Austin, San Antonio, Fredericksburg, Temple)</h4>
+			<div class="back-btn-container">
+				<a class="btn btn-default btn-sm" href="nav-bank-details.php"><i class="fa fa-arrow-left"></i> Back to Bank</a>
+			</div>
+
+			<h3><i class="fa fa-folder-open"></i> Operating (************4509) </h3>
+			<p class="process-type">Transactions from your checking account at <a href="#">Bank of America</a></p>
 						
 		<div class="panel panel-default panel-ac">
 			
-		  <!-- Default panel contents -->
-		  <div class="panel-heading">
-			  <h3 class="panel-title black"><strong>Operating (************4509)</strong></h3>
-		  </div> <!-- close panel-heading -->
 		  
 		  <!-- Table -->
-		<div class="table-responsive">
+		<div class="table table-ac table-hover account-table">
 		  <table class="table">
 			<thead>
 			<tr>

@@ -1126,6 +1126,12 @@ table {
 	border-top:0;
 }
 
+.account-table {
+	td:first-child{
+		font-weight: 500;
+	}
+}
+
 progress {
 	width:60px;
 }
@@ -1268,6 +1274,12 @@ transform:rotate(0deg)}
   	font-weight: 600;
   	.tiny-caps-type
   }
+  th:nth-child(2) {
+  	color:@brightblue;
+  	padding-left: 10px;
+  	font-weight: 600;
+  	.tiny-caps-type
+  }
   th:last-child {
   	font-weight: 600;
   	color:@brightblue;
@@ -1286,6 +1298,13 @@ transform:rotate(0deg)}
     }
   	.tiny-caps-type
   }
+
+	th:nth-child(2) {
+  		color:@brightblue;
+  		font-weight:600;
+  		.tiny-caps-type
+  	}
+
   th:last-child {
   	color:@brightblue;
   	font-weight:600;
@@ -1886,6 +1905,12 @@ td.share-cell {
 .btn:active {
 	top:6px;
 	box-shadow: 0px 5px 0px #3187C0;
+}
+
+.back-btn-container {
+	@media all and (min-width:@screen-sm) {
+		margin-top: 30px;
+	}
 }
 
 .spinner {
