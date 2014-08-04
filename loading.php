@@ -31,7 +31,11 @@
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 text-center loading-anim">
 
-				<img src="images/animated-ac.gif" alt="Loading">
+				<div class="spinner">
+  					<div class="bounce1"></div>
+  					<div class="bounce2"></div>
+  					<div class="bounce3"></div>
+				</div>
 				
 				<h3 class="loading-header">Loading Message Header</h3>
 				<p class="loading-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
