@@ -82,6 +82,18 @@
             <h4 class="list-group-item-heading">Banks</h4>
             <p class="list-group-item-text"></p>
           </a>
+          <a href="banks-botadd.php" target="_blank" class="list-group-item">
+            <h4 class="list-group-item-heading">Banks - Deemphasized Add Button</h4>
+            <p class="list-group-item-text"></p>
+          </a>
+          <a href="banks-topadd.php" target="_blank" class="list-group-item">
+            <h4 class="list-group-item-heading">Banks - Top Add Button</h4>
+            <p class="list-group-item-text"></p>
+          </a>
+          <a href="banks-dualadd.php" target="_blank" class="list-group-item">
+            <h4 class="list-group-item-heading">Banks - Mixed Position Add Button</h4>
+            <p class="list-group-item-text"></p>
+          </a>
           </a>
           <a href="banks-enrolled.php" target="_blank" class="list-group-item">
             <h4 class="list-group-item-heading">Banks Enrolled</h4>

@@ -877,6 +877,165 @@ h4.bank-name {
     box-shadow: 0;
   }
 }
+.btn-sm {
+  border-color: #eee;
+  width: 100%;
+  color: #777;
+  background-color: #eee;
+  border-radius: 0px;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 10px;
+}
+@media all and (min-width: 768px) {
+  .btn-sm {
+    border: none;
+    padding: 12px 12px;
+    width: 30%;
+  }
+  .btn-sm:active {
+    box-shadow: 0;
+  }
+}
+.btn.btn-add-new-bank {
+  border-color: #eee;
+  width: 100%;
+  color: #777;
+  background-color: #fff;
+  border-radius: 0px;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 10px;
+  transition: all 0.5s ease;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+.btn.btn-add-new-bank:hover {
+  background-color: #fafafa;
+  border-color: #fff;
+  color: #333;
+}
+@media all and (min-width: 768px) {
+  .btn.btn-add-new-bank {
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    width: 88%;
+    margin-top: 80px;
+    margin-right: 20px;
+    font-size: 11px;
+  }
+  .btn.btn-add-new-bank:active {
+    box-shadow: 0;
+  }
+}
+.btn.btn-add-new-bank-dual {
+  border-color: #eee;
+  width: 100%;
+  color: #777;
+  background-color: #fff;
+  border-radius: 0px;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 10px;
+  transition: all 0.5s ease;
+  margin-top: 10px;
+  margin-bottom: 14px;
+  display: none;
+}
+.btn.btn-add-new-bank-dual:hover {
+  background-color: #fafafa;
+  border-color: #fff;
+  color: #333;
+}
+@media all and (min-width: 768px) {
+  .btn.btn-add-new-bank-dual {
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    width: 88%;
+    margin-top: 80px;
+    margin-right: 20px;
+    font-size: 11px;
+    display: block;
+  }
+  .btn.btn-add-new-bank-dual:active {
+    box-shadow: 0;
+  }
+}
+.btn.btn-add-new-bank-bot {
+  border-color: #eee;
+  width: 100%;
+  color: #777;
+  background-color: #fff;
+  border-radius: 0px;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px 12px;
+  transition: all 0.5s ease;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+.btn.btn-add-new-bank-bot:hover {
+  background-color: #fafafa;
+  border-color: #fff;
+  color: #333;
+}
+@media all and (min-width: 768px) {
+  .btn.btn-add-new-bank-bot {
+    border: 1px solid #ccc;
+    padding: 12px 12px;
+    width: 100%;
+    display: block;
+    font-size: 13px;
+    width: 30%;
+    margin-top: -10px;
+  }
+  .btn.btn-add-new-bank-bot:active {
+    box-shadow: 0;
+  }
+}
+.btn.btn-add-new-bank-dual-bot {
+  border-color: #eee;
+  width: 100%;
+  color: #777;
+  background-color: #fff;
+  border-radius: 0px;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px 12px;
+  transition: all 0.5s ease;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+.btn.btn-add-new-bank-dual-bot:hover {
+  background-color: #fafafa;
+  border-color: #fff;
+  color: #333;
+}
+@media all and (min-width: 768px) {
+  .btn.btn-add-new-bank-dual-bot {
+    border: 1px solid #ccc;
+    padding: 12px 12px;
+    width: 100%;
+    display: block;
+    font-size: 13px;
+    width: 30%;
+    margin-top: -10px;
+    display: none;
+  }
+  .btn.btn-add-new-bank-dual-bot:active {
+    box-shadow: 0;
+  }
+}
 .panel-footer-ac {
   background-color: transparent;
   border-bottom: none;

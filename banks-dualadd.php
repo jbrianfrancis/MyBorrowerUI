@@ -27,11 +27,22 @@
 	
 	<div class="container">
 	<div class="row">
+		<div class="col-sm-12">
+			<div class="row">
+				<div class="col-sm-9">
+				<h3><i class="fa fa-university"></i> Your Banks</h3>
+				<p class="process-type">The following banks have been added.</div>
+				<div class="col-sm-3">
+					
+					<a href="#" class="btn btn-default btn-add-new-bank-dual"><i class="fa fa-plus"></i> Add New</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
 		<div class="col-md-12">
-			
 		
-		<h3><i class="fa fa-university"></i> Your Banks</h3>
-		<p class="process-type">Don't see the bank you need to enroll listed below?  <a href="#">Add a new bank <i class="fa fa-arrow-right"></i></a></p>
 		
 		<div class="panel panel-default panel-ac">
 		  		
@@ -93,10 +104,9 @@
 			</tbody>
 		  </table>			
 		
-		  <!-- <div class="panel-footer panel-footer-ac">
-				<p>Don't see the bank you'd like to enroll? <a href="#">Add a New Bank <i class="fa fa-arrow-right"></i></a> </p>
-			  <a class="btn btn-lg btn-hybrid" href="#"><i class="fa fa-plus"></i> Add New Bank</a>
-		  </div> close panel-footer -->
+		  <div class="panel-footer panel-footer-ac">
+				<a href="#" class="btn btn-default btn-add-new-bank-dual-bot"><i class="fa fa-plus"></i> Add New</a>
+		  </div>
 		
 	</div> <!-- close panel -->
 		
