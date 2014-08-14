@@ -18,6 +18,7 @@
 @type: #444;
 @block-bg: #fbfbfb;
 @brightbluehover:darken(@brightblue, 10%);
+@accent: #888;
 
 html {
 	height:100%;
@@ -77,7 +78,7 @@ a {
 .navbar {
 	min-height: 78px;
 	@media all and (min-width:768px) {
-		min-height:100px;
+		height:100px;
 	}
 }
 
@@ -91,19 +92,19 @@ a {
 .navbar-header {
 	padding-top:16px;
 	@media all and (min-width: @screen-sm) {
-		padding-top: 24px;
+		padding-top: 5px;
 	}
 	
 }
 
 .navbar-default .navbar-nav>li>a {
-	color:#fff;
+	color:black;
 	@media all and (min-width: @screen-sm) {
-		padding:40px 26px 40px 26px;
+		padding:39px 26px 37px 26px;
 		transition: background-color 0.5s ease;
 		&:hover {
 			i {
-				color:@brightbluehover;
+				color:white;
 			}
       		background-color: @brightblue;
       		color:#fff;
@@ -116,11 +117,11 @@ a {
 }
 
 .navbar-brand {
-	padding:0;
-	img {
-		@media all and (min-width: @screen-sm) {
-			padding-left: 15px;
-		}
+	padding-left:10px;
+	margin-top: 10px;
+	@media all and (min-width: @screen-sm) {
+		padding-left: 25px;
+		margin-top:14px;
 	}
 }
 
@@ -151,7 +152,8 @@ h4.bank-name-error {
 
 .navbar {
 	padding:0;
-	background-color: #34495e;
+	background-color: white;
+	border-bottom:5px solid @accent;
 	@media all and (min-width:@screen-sm) {
 		padding:0;
 	}
@@ -177,7 +179,7 @@ h4.bank-name-error {
 }
 
 .navbar-nav>li>a i {
-	color:@brightbluehover;
+	color:@accent;
 	margin-right:3px;
 	transition: background-color 0.5s ease;
 }
@@ -1107,6 +1109,7 @@ h4.bank-name {
 
 .white-header {
 	padding:7px 0 6px 0;
+	text-align:center;
 	img {
         padding-bottom: 12px;
         padding-top: 16px;
@@ -1603,8 +1606,22 @@ th.xpadding-left-10 {
   	}
 }
 
-.switch-candy a {
-	background-color:#333;
+.switch-light {
+	height:31px;
+}
+
+.switch-candy {
+	border-radius: 0;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color:#555;
+	background-color: #fff;
+	border:1px solid #ccc;
+	a {
+		background-color:#efbe0c;
+		border-radius: 0;
+	}
 }
 
 .alert {
@@ -1762,8 +1779,8 @@ select.input-sm {
 }
 
 label.switch-light.switch-candy {
-	margin-bottom: 5px;
-    margin-top: 5px;
+	margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 @media (min-width: @screen-sm) {

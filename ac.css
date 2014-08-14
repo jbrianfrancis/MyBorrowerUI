@@ -60,7 +60,7 @@ a {
 }
 @media all and (min-width: 768px) {
   .navbar {
-    min-height: 100px;
+    height: 100px;
   }
 }
 .navbar,
@@ -75,15 +75,15 @@ a {
 }
 @media all and (min-width: 768px) {
   .navbar-header {
-    padding-top: 24px;
+    padding-top: 5px;
   }
 }
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
+  color: black;
 }
 @media all and (min-width: 768px) {
   .navbar-default .navbar-nav > li > a {
-    padding: 40px 26px 40px 26px;
+    padding: 39px 26px 37px 26px;
     -webkit-transition: background-color 0.5s ease;
             transition: background-color 0.5s ease;
   }
@@ -92,18 +92,20 @@ a {
     color: #fff;
   }
   .navbar-default .navbar-nav > li > a:hover i {
-    color: #2781bc;
+    color: white;
   }
 }
 .navbar-default .navbar-nav > li:last-child {
   padding-right: 60px;
 }
 .navbar-brand {
-  padding: 0;
+  padding-left: 10px;
+  margin-top: 10px;
 }
 @media all and (min-width: 768px) {
-  .navbar-brand img {
-    padding-left: 15px;
+  .navbar-brand {
+    padding-left: 25px;
+    margin-top: 14px;
   }
 }
 h4.bank-name-error {
@@ -136,7 +138,8 @@ h4.bank-name-error span {
 }
 .navbar {
   padding: 0;
-  background-color: #34495e;
+  background-color: white;
+  border-bottom: 5px solid #888888;
 }
 @media all and (min-width: 768px) {
   .navbar {
@@ -164,7 +167,7 @@ h4.bank-name-error span {
   }
 }
 .navbar-nav > li > a i {
-  color: #2781bc;
+  color: #888888;
   margin-right: 3px;
   -webkit-transition: background-color 0.5s ease;
           transition: background-color 0.5s ease;
@@ -1106,6 +1109,7 @@ h4.bank-name {
 }
 .white-header {
   padding: 7px 0 6px 0;
+  text-align: center;
 }
 .white-header img {
   padding-bottom: 12px;
@@ -1602,8 +1606,21 @@ th.xpadding-left-10 {
     font-size: 14px;
   }
 }
+.switch-light {
+  height: 31px;
+}
+.switch-candy {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
 .switch-candy a {
-  background-color: #333;
+  background-color: #efbe0c;
+  border-radius: 0;
 }
 .alert {
   font-size: 12px;
@@ -1765,8 +1782,8 @@ select.form-control {
   border-bottom: 0px;
 }
 label.switch-light.switch-candy {
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 @media (min-width: 768px) {
   .sec-messaging {
