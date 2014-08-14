@@ -31,7 +31,7 @@
 <div class="container">
    	<form role="form" class="form-signin">
 	<div class="row white-header">
-		<img src="images/acctchk.svg" alt="ACCOUNTCHEK: Simple.Smart.Secure." onerror="this.onerror=null; this.src='ac-tagline-300.png'">
+    <img src="images/logo-check.svg" width="106" alt="ACCOUNTCHEK: Simple.Smart.Secure." onerror="this.onerror=null; this.src='images/logo-check.png'">
 	</div>
   <div class="panel panel-default panel-signin">
       <div class="panel-body panel-body-signin">
