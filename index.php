@@ -34,112 +34,112 @@
       <p class="process-type"></p>
 						
 			<div class="list-group">
-  				<a href="sign-in.php" target="_blank" class="list-group-item">
+  				<a href="sign-in.php" class="list-group-item">
     				<h4 class="list-group-item-heading">Sign-in</h4>
     				<p class="list-group-item-text"></p>
   				</a>
-          <a href="sign-in-resend.php" target="_blank" class="list-group-item">
+          <a href="sign-in-resend.php" class="list-group-item">
             <h4 class="list-group-item-heading">Sign-in - Resend</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="resend-pac.php" target="_blank" class="list-group-item">
+          <a href="resend-pac.php" class="list-group-item">
             <h4 class="list-group-item-heading">Resend Personal Access Code</h4>
             <p class="list-group-item-text"></p>
           </a>
-  				<a href="bank-sign-in.php" target="_blank" class="list-group-item">
+  				<a href="bank-sign-in.php" class="list-group-item">
     				<h4 class="list-group-item-heading">Bank Sign-in</h4>
     				<p class="list-group-item-text"></p>
   				</a>
-          <a href="bank-sign-in-error-first.php" target="_blank" class="list-group-item">
+          <a href="bank-sign-in-error-first.php" class="list-group-item">
             <h4 class="list-group-item-heading">Bank Sign-in First Error</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="bank-sign-in-error.php" target="_blank" class="list-group-item">
+          <a href="bank-sign-in-error.php" class="list-group-item">
             <h4 class="list-group-item-heading">Bank Sign-in Error Again</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="bank-sign-in-error-cta.php" target="_blank" class="list-group-item">
+          <a href="bank-sign-in-error-cta.php" class="list-group-item">
             <h4 class="list-group-item-heading">Bank Sign-in Error Bank CTA</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="challenge.php" target="_blank" class="list-group-item">
+          <a href="challenge.php" class="list-group-item">
             <h4 class="list-group-item-heading">Bank Challenge</h4>
             <p class="list-group-item-text"></p>
           </a>
-  				<a href="classify.php" target="_blank" class="list-group-item">
+  				<a href="classify.php" class="list-group-item">
     				<h4 class="list-group-item-heading">Classify Accounts</h4>
     				<p class="list-group-item-text"></p>
   				</a>
-  				<a href="share.php" target="_blank" class="list-group-item">
+  				<a href="share.php" class="list-group-item">
     				<h4 class="list-group-item-heading">Share Accounts</h4>
     				<p class="list-group-item-text"></p>
   				</a>
-          <a href="share-nomatch.php" target="_blank" class="list-group-item">
+          <a href="share-nomatch.php" class="list-group-item">
             <h4 class="list-group-item-heading">Share Account - No Match</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="banks.php" target="_blank" class="list-group-item">
+          <a href="banks.php" class="list-group-item">
             <h4 class="list-group-item-heading">Banks</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="banks-botadd.php" target="_blank" class="list-group-item">
+          <a href="banks-botadd.php" class="list-group-item">
             <h4 class="list-group-item-heading">Banks - Deemphasized Add Button</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="banks-topadd.php" target="_blank" class="list-group-item">
+          <a href="banks-topadd.php" class="list-group-item">
             <h4 class="list-group-item-heading">Banks - Top Add Button</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="banks-dualadd.php" target="_blank" class="list-group-item">
+          <a href="banks-dualadd.php" class="list-group-item">
             <h4 class="list-group-item-heading">Banks - Mixed Position Add Button</h4>
             <p class="list-group-item-text"></p>
           </a>
           </a>
-          <a href="banks-enrolled.php" target="_blank" class="list-group-item">
+          <a href="banks-enrolled.php" class="list-group-item">
             <h4 class="list-group-item-heading">Banks Enrolled</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="banks-enrolled-logout.php" target="_blank" class="list-group-item">
+          <a href="banks-enrolled-logout.php" class="list-group-item">
             <h4 class="list-group-item-heading">Banks Enrolled Sign Out</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="bank-detail.php" target="_blank" class="list-group-item">
+          <a href="bank-detail.php" class="list-group-item">
             <h4 class="list-group-item-heading">Bank Detail</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="bank-detail-share.php" target="_blank" class="list-group-item">
+          <a href="bank-detail-share.php" class="list-group-item">
             <h4 class="list-group-item-heading">Bank Detail - With Sharing</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="account-detail.php" target="_blank" class="list-group-item">
+          <a href="account-detail.php" class="list-group-item">
             <h4 class="list-group-item-heading">Account Detail (Transactions)</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="add-new-bank-alt.php" target="_blank" class="list-group-item">
+          <a href="add-new-bank-alt.php" class="list-group-item">
             <h4 class="list-group-item-heading">Add New Bank</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="search-results.php" target="_blank" class="list-group-item">
+          <a href="search-results.php" class="list-group-item">
             <h4 class="list-group-item-heading">Search Results</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="loading.php" target="_blank" class="list-group-item">
+          <a href="loading.php" class="list-group-item">
             <h4 class="list-group-item-heading">Loading</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="faq.php" target="_blank" class="list-group-item">
+          <a href="faq.php" class="list-group-item">
             <h4 class="list-group-item-heading">FAQ</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="faq-login.php" target="_blank" class="list-group-item">
+          <a href="faq-login.php" class="list-group-item">
             <h4 class="list-group-item-heading">FAQ - Login</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="customer-service.php" target="_blank" class="list-group-item">
+          <a href="customer-service.php" class="list-group-item">
             <h4 class="list-group-item-heading">Customer Service</h4>
             <p class="list-group-item-text"></p>
           </a>
-          <a href="customer-service-login.php" target="_blank" class="list-group-item">
+          <a href="customer-service-login.php" class="list-group-item">
             <h4 class="list-group-item-heading">Customer Service - Login</h4>
             <p class="list-group-item-text"></p>
           </a>
