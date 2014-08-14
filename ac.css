@@ -100,12 +100,15 @@ a {
 }
 .navbar-brand {
   padding-left: 10px;
-  margin-top: 10px;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 @media all and (min-width: 768px) {
   .navbar-brand {
     padding-left: 25px;
     margin-top: 14px;
+    padding-top: 15px;
   }
 }
 h4.bank-name-error {
@@ -2050,6 +2053,18 @@ footer .copyright {
   .form-signin .form-control {
     height: 65px;
   }
+}
+.form-signin .form-control::-webkit-input-placeholder {
+  color: #ccc;
+}
+.form-signin .form-control:-ms-input-placeholder {
+  color: #ccc;
+}
+.form-signin .form-control:-moz-input-placeholder {
+  color: #ccc;
+}
+.form-signin .form-control::-moz-input-placeholder {
+  color: #ccc;
 }
 .form-group label.tiny-caps {
   display: none;
