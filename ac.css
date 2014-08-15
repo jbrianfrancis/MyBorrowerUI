@@ -1621,12 +1621,12 @@ th.xpadding-left-10 {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #555;
-  background-color: #fff;
-  border: 1px solid #ccc;
+  color: #fff;
+  background-color: #ccc;
+  /* border:1px solid #ccc; */
 }
 .switch-candy a {
-  background-color: #efbe0c;
+  background-color: #444;
   border-radius: 0;
 }
 .alert {
