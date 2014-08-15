@@ -30,7 +30,7 @@
 		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> Success! We were able to connect to your shared accounts. One more step! 
 	</div>
 	
-	<div class="container process-container">
+	<div class="container">
 	<div class="row">
 		<div class="col-md-12">
 		

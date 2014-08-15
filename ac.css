@@ -433,7 +433,7 @@ h3.panel-title-authorize {
   h3.panel-title-authorize {
     margin-top: 8px;
     margin-left: 0;
-    margin-bottom: 40px;
+    margin-bottom: 26px;
   }
 }
 h3.panel-title.black strong {
@@ -796,6 +796,10 @@ h4.bank-name {
 }
 .enrollment-success .btn-sign-out:hover {
   background-color: #2781bc;
+}
+.enrollment-success img {
+  max-width: 120px;
+  margin-bottom: 10px;
 }
 .enrollment-success-green {
   color: #27ae60;
