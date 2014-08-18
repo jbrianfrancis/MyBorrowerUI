@@ -99,6 +99,10 @@
             <h4 class="list-group-item-heading">Banks Enrolled</h4>
             <p class="list-group-item-text"></p>
           </a>
+          <a href="banks-enrolled-continue.php" class="list-group-item">
+            <h4 class="list-group-item-heading">Banks Enrolled with Additional</h4>
+            <p class="list-group-item-text"></p>
+          </a>
           <a href="banks-enrolled-logout.php" class="list-group-item">
             <h4 class="list-group-item-heading">Banks Enrolled Sign Out</h4>
             <p class="list-group-item-text"></p>
