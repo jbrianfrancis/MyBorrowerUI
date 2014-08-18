@@ -45,10 +45,10 @@
 			<tbody>
 			<tr>
 				<td style="vertical-align:middle;" class="bank-cell">
-						Simple - Visa Debit Card<br>
+						Standard Chartered<br>
 						<small><strong>No</strong> accounts shared</small>
 				</td>
-				<td class="enrolled-cell"><p class="status-icon"><i class="fa fa-check-circle fa-2x"></i></p></td>
+				<td class="enrolled-cell"><!-- <p class="status-icon"><i class="fa fa-check-circle fa-2x"></i></p> --></td>
 				<td style="vertical-align:middle;">
 						<p class="status-action"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-plus-square"></i> Enroll Now</a></p>
 				</td>
@@ -93,10 +93,9 @@
 			</tbody>
 		  </table>			
 		
-		  <!-- <div class="panel-footer panel-footer-ac">
-				<p>Don't see the bank you'd like to enroll? <a href="#">Add a New Bank <i class="fa fa-arrow-right"></i></a> </p>
-			  <a class="btn btn-lg btn-hybrid" href="#"><i class="fa fa-plus"></i> Add New Bank</a>
-		  </div> close panel-footer -->
+		  <div class="panel-footer panel-footer-ac">
+				<a href="#" class="btn btn-default btn-add-new-bank-bot"><i class="fa fa-plus"></i> Add New</a>
+		  </div>
 		
 	</div> <!-- close panel -->
 		
