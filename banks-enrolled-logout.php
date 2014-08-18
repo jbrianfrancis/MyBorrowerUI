@@ -34,7 +34,7 @@
 				<p><i class="fa fa-check fa-5x enrollment-success-green"></i></p>
 				
 				<h2 class="success-heading">Enrollment complete!</h2>
-				<p>You are finished! Unless you would like to <a href="#">Add a Bank</a>, please Logout.</p>
+				<p>You are finished! Unless you would like to <a href="#">Add a Bank</a>, please sign out.</p>
 				<p><a href="#" class="btn btn-sm btn-primary btn-sign-out">Sign Out <i class="fa fa-sign-out"></i></a></p>
 								
 			</div> <!-- close containter -->
