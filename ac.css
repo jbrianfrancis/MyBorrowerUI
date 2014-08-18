@@ -1902,6 +1902,11 @@ label.switch-light.switch-candy {
   border-color: #3187C0;
   color: #fff;
 }
+@media (min-width: 992px) {
+  .btn-continue {
+    margin-top: 0px;
+  }
+}
 .panel-body-signin {
   padding: 0;
 }

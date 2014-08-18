@@ -31,7 +31,7 @@
 		<div class="row">	
 			
 			<div class="container text-center enrollment-success">		  
-				<p><i class="fa fa-check fa-5x enrollment-success-green"></i></p>
+				<p><img src="images/brand-check-green.png" alt="Enrollment Complete!"></p>
 				
 				<h2 class="success-heading">Enrollment complete!</h2>
 				<p>You are finished! Unless you would like to <a href="#">Add a Bank</a>, please sign out.</p>

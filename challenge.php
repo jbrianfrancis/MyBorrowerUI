@@ -53,7 +53,7 @@
 	  			</div><!-- close panel-body -->
 	  		</div><!-- close panel -->
 			
-			  <a class="btn btn-lg btn-hybrid" href="#">Continue <i class="fa fa-chevron-right"></i></a>
+			  <a class="btn btn-lg btn-hybrid btn-continue" href="#">Continue <i class="fa fa-chevron-right"></i></a>
 
 		</div> <!-- close col-md-6 -->	
 	</div> <!-- close row -->	
