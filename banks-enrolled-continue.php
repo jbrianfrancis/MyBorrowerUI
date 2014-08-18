@@ -34,7 +34,7 @@
 				<p><img src="images/brand-check-green.png" alt="Enrollment Complete!"></p>
 				
 				<h2 class="success-heading">Enrollment complete!</h2>
-				<p>You have successfully enrolled your bank. Please continue enrolling the banks that have been added below.</p>
+				<p>Please enroll the next bank in the list below.</p>
 								
 			</div> <!-- close containter -->
 			
