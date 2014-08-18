@@ -790,6 +790,7 @@ h4.bank-name {
   color: white;
   -webkit-transition: all 0.5s ease;
           transition: all 0.5s ease;
+  background-color: #3f9bd7;
 }
 .enrollment-success .btn-sign-out i {
   margin-left: 4px;
