@@ -80,14 +80,12 @@
 
 		</div>
 		<div class="panel-footer panel-footer-ac">
-		<div class="row">
-			<div class="col-md-7">
-			  <a class="btn btn-lg btn-hybrid" href="#">Yes, Continue <i class="fa fa-chevron-right"></i></a>
-			</div>
-			<div class="col-md-5">
+		
+			  <a class="btn btn-lg btn-hybrid" href="#">Continue <i class="fa fa-chevron-right"></i></a>
+			<!-- <div class="col-md-5">
 			  <a class="btn btn-lg btn-hybrid btn-secondary" href="#">No Match</a>
 			</div>
-		</div>
+		</div> -->
 		 </div> <!-- close panel-footer -->
 	</div> <!-- /close col-md-12 -->
 		

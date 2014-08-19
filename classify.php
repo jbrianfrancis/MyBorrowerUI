@@ -27,7 +27,7 @@
 	<?php include("includes/header-nobank.php"); ?>
 	
 	<div class="alert alert-success ac-alert-success alert-dismissable">
-		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> Success! We were able to connect to your shared accounts. One more step! 
+		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> <i class="fa fa-check-circle"></i> Success! We were able to connect to your shared accounts. One more step! 
 	</div>
 	
 	<div class="container">

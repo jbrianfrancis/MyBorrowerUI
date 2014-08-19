@@ -520,6 +520,9 @@ ul.top-10-banks {
 		list-style:none;
 		border-bottom:1px solid #efefef;
 		font-size:13px;
+		@media all and (min-width: @screen-sm) {
+			font-size:18px;
+		}
 	}
 	li:last-child {
 		border-bottom:none;
@@ -1311,6 +1314,12 @@ h4.bank-name {
 	}
 }
 
+.table-ac {
+	small {
+		padding-top:0;
+	}
+}
+
 table {
 	border-top:0;
 }
@@ -1350,6 +1359,8 @@ table {
 		@media all and (min-width: @screen-sm) {
 			font-weight: 500;
 			text-align:right;
+			padding-top:14px;
+			padding-bottom: 14px;
 		}
 	}
 	th:last-child {
@@ -1544,8 +1555,6 @@ transform:rotate(0deg)}
 
 /* END Loading Page Styles */
 
-
-
 .gray-heading {
   th:first-child {
   	color:@brightblue;
@@ -1578,7 +1587,7 @@ transform:rotate(0deg)}
   	.tiny-caps-type
   }
 
-	th:nth-child(2) {
+	th:nth-child(2), th:nth-child(3) , th:nth-child(4) {
   		color:@brightblue;
   		font-weight:600;
   		.tiny-caps-type
@@ -1648,7 +1657,7 @@ th.xpadding-left-10 {
     margin-top: 14px;
     font-size:14px;
 	i {
-		color:@successgreen;
+		color:white;
 	}
 	@media all and (min-width: @screen-md) {
 		font-weight: 400;

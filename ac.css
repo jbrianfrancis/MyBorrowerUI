@@ -525,6 +525,11 @@ ul.top-10-banks li {
   border-bottom: 1px solid #efefef;
   font-size: 13px;
 }
+@media all and (min-width: 768px) {
+  ul.top-10-banks li {
+    font-size: 18px;
+  }
+}
 ul.top-10-banks li:last-child {
   border-bottom: none;
 }
@@ -1335,6 +1340,9 @@ h4.bank-name {
     padding-top: 10px;
   }
 }
+.table-ac small {
+  padding-top: 0;
+}
 table {
   border-top: 0;
 }
@@ -1377,6 +1385,8 @@ table {
   .bank-table td:last-child {
     font-weight: 500;
     text-align: right;
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
 }
 .bank-table th:last-child {
@@ -1578,7 +1588,9 @@ progress {
     font-weight: 600;
   }
 }
-.table th:nth-child(2) {
+.table th:nth-child(2),
+.table th:nth-child(3),
+.table th:nth-child(4) {
   color: #3f9bd7;
   font-weight: 600;
   text-transform: uppercase;
@@ -1648,7 +1660,7 @@ th.xpadding-left-10 {
   font-size: 14px;
 }
 .ac-alert-success i {
-  color: #27ae60;
+  color: white;
 }
 @media all and (min-width: 992px) {
   .ac-alert-success {
