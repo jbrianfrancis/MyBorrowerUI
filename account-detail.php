@@ -41,7 +41,7 @@
 			
 		  
 		  <!-- Table -->
-		  <table class="table table-ac table-hover account-table">
+		  <table class="table table-ac account-table">
 			<thead>
 			<tr>
 				<th>Date</th>

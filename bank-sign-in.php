@@ -61,7 +61,7 @@
 											</div>
 									<!-- Sign-in Button -->
 									<a href="#" onclick="doSubmit('form0', 'inputForm');" class="btn btn-lg btn-authorize">Authorize  &nbsp;<i class="fa fa-caret-right"></i></a>
-									<p class="xpadding10">Not your bank? Try a <a href="/HomeY/SearchFI">new search</a></p>
+									<p class="xpadding10 notbank">Not your bank? Try a <a href="/HomeY/SearchFI">new search</a></p>
 									</form>							
 						</div>
 

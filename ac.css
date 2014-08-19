@@ -773,6 +773,11 @@ h4.bank-name {
   padding-top: 10px;
   text-align: justify;
 }
+@media all and (min-width: 768px) {
+  .xpadding10.notbank {
+    padding-top: 39px;
+  }
+}
 .notification {
   font-size: 16px;
   color: #555;
