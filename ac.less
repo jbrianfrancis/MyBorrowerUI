@@ -901,6 +901,11 @@ h4.bank-name {
 	}
 }
 
+.btn:active {
+	top:6px;
+	box-shadow: 0px 5px 0px #3187C0;
+}
+
 .btn-sm {
 	border-color: #eee;
     width: 100%;
@@ -917,7 +922,7 @@ h4.bank-name {
 		padding:12px 12px;
 		width:30%;
 		&:active {
-			box-shadow: 0;
+			box-shadow: 0px 0px 0px #3187C0
 		}
 	}
 }
@@ -937,7 +942,7 @@ h4.bank-name {
 		padding:12px 12px;
 		width:30%;
 		&:active {
-			box-shadow: 0;
+			box-shadow: 0px 0px 0px #3187C0
 		}
 	}
 }
@@ -969,7 +974,7 @@ h4.bank-name {
 		margin-right:20px;
 		font-size: 11px;
 		&:active {
-			box-shadow: 0;
+			box-shadow: 0 !important;
 		}
 
 	}
@@ -1900,6 +1905,9 @@ label.switch-light.switch-candy {
       	border-color:#3187C0;
       	color:#fff;
     }
+	@media (min-width: @screen-sm) {
+		margin-top:39px;
+	}
 }
 
 .btn-continue {
@@ -2221,10 +2229,7 @@ td.share-cell {
 .container {
 	max-width:950px;
 }
-.btn:active {
-	top:6px;
-	box-shadow: 0px 5px 0px #3187C0;
-}
+
 
 .back-btn-container {
 	margin-top: 20px;

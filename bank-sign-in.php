@@ -27,7 +27,7 @@
 	<?php include("includes/header-nobank.php"); ?>
 	
 <div class="alert alert-success ac-alert-success alert-dismissable">
-		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> Success! You have signed in to ACCOUNTCHEK. Now, we need to connect to your Bank. 
+		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> <i class="fa fa-check-circle"></i> Success! You have signed in to ACCOUNTCHEK. Now, we need to connect to your Bank. 
 	</div>
 
 	<div class="container">
@@ -44,34 +44,27 @@
 			    <div class="panel-body panel-body-ac">
 					
 					<div class="row">
+
+
 						<div class="col-md-6 col-md-offset-3">
-							<h3 class="panel-title panel-title-authorize"><i class="fa fa-university"></i> Your Bank Sign in</h3>
-							<p class="tiny-caps">Bank Name</p>
-						     <h5 class="fi-name">American Bank of Texas (Seguin, Highland Lakes, Austin, San Antonio, Fredericksburg, Temple)</h5>
-				 
-			   			  <div class="form-group">
+								<h3 class="panel-title panel-title-authorize"><i class="fa fa-university"></i> Your Bank Sign in</h3>
+								<p class="tiny-caps">Bank Name</p>
+								<h5 class="fi-name">DagBank</h5>
+								<form action="/HomeY/InitialBankCredentials?Length=5" data-ajax="true" data-ajax-loading="#loading" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#partialView" id="form0" method="post" name="loginForms" novalidate="novalidate"><input data-val="true" data-val-number="The field siteId must be a number." data-val-required="The siteId field is required." id="fiInfo_siteId" name="fiInfo.siteId" type="hidden" value="8995"><input id="fiName" name="fiName" type="hidden" value="DagBank">									<input type="hidden" name="credentialError" value="False">
+											<div class="form-group ">
+												<label for="ID-LOGIN">Username</label>
+												<input class="form-control" id="ID-LOGIN" name="ID-LOGIN" type="text" value="">
+											</div>
+											<div class="form-group ">
+												<label for="ID-PASSWORD1">Password</label>
+												<input class="form-control" id="ID-PASSWORD1" name="ID-PASSWORD1" type="password" value="">
+											</div>
+									<!-- Sign-in Button -->
+									<a href="#" onclick="doSubmit('form0', 'inputForm');" class="btn btn-lg btn-authorize">Authorize  &nbsp;<i class="fa fa-caret-right"></i></a>
+									<p class="xpadding10">Not your bank? Try a <a href="/HomeY/SearchFI">new search</a></p>
+									</form>							
+						</div>
 
-			   				<!-- Email Address -->
-			   				<label for="exampleInputEmail1" class="tiny-caps">Username</label>
-			   			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Username" autofocus>
-			   			  </div> <!-- close form-group -->
-						  
-			   			  <div class="form-group">
-							  <!-- Password -->
-			   			    <label for="exampleInputPassword1" class="tiny-caps">Password</label>
-			   			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-						</div> <!-- close form-group -->
-
-
-			   			<!-- Sign-in Button -->
-
-			   			<a href="#" class="btn btn-lg btn-authorize">Authorize  &nbsp;<i class="fa fa-caret-right"></i></a>
-
-			   			<p class="xpadding10">Not your bank? Try a <a href="#">new search</a></p>
-
-			   			<!-- <p class="xpadding10"><small class="inverse"><span class="glyphicon glyphicon-lock"></span> <strong>Secure &amp; Protected</strong><br /> We will use your login information to access a limited view of your account(s). We will not be able to manage or change anything about your accounts.</small></p> -->
-							
-						</div> <!-- close col-md-6 col-md-offsert-3 -->
 												
 					</div> <!-- close row -->
 					

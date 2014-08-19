@@ -892,28 +892,10 @@ h4.bank-name {
     padding: 8px 10px;
   }
 }
-.btn-sm {
-  border-color: #eee;
-  width: 100%;
-  color: #777;
-  background-color: #eee;
-  border-radius: 0px;
-  font-weight: 600;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 8px 10px;
-}
-@media all and (min-width: 768px) {
-  .btn-sm {
-    border: none;
-    padding: 12px 12px;
-    width: 30%;
-  }
-  .btn-sm:active {
-    -webkit-box-shadow: 0;
-            box-shadow: 0;
-  }
+.btn:active {
+  top: 6px;
+  -webkit-box-shadow: 0px 5px 0px #3187C0;
+          box-shadow: 0px 5px 0px #3187C0;
 }
 .btn-sm {
   border-color: #eee;
@@ -934,8 +916,31 @@ h4.bank-name {
     width: 30%;
   }
   .btn-sm:active {
-    -webkit-box-shadow: 0;
-            box-shadow: 0;
+    -webkit-box-shadow: 0px 0px 0px #3187c0;
+            box-shadow: 0px 0px 0px #3187c0;
+  }
+}
+.btn-sm {
+  border-color: #eee;
+  width: 100%;
+  color: #777;
+  background-color: #eee;
+  border-radius: 0px;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 10px;
+}
+@media all and (min-width: 768px) {
+  .btn-sm {
+    border: none;
+    padding: 12px 12px;
+    width: 30%;
+  }
+  .btn-sm:active {
+    -webkit-box-shadow: 0px 0px 0px #3187c0;
+            box-shadow: 0px 0px 0px #3187c0;
   }
 }
 .btn.btn-add-new-bank {
@@ -969,8 +974,8 @@ h4.bank-name {
     font-size: 11px;
   }
   .btn.btn-add-new-bank:active {
-    -webkit-box-shadow: 0;
-            box-shadow: 0;
+    -webkit-box-shadow: 0 !important;
+            box-shadow: 0 !important;
   }
 }
 .btn.btn-add-new-bank-dual {
@@ -1914,6 +1919,11 @@ label.switch-light.switch-candy {
   border-color: #3187C0;
   color: #fff;
 }
+@media (min-width: 768px) {
+  .btn-authorize {
+    margin-top: 39px;
+  }
+}
 @media (min-width: 992px) {
   .btn-continue {
     margin-top: 0px;
@@ -2218,11 +2228,6 @@ td.share-cell {
 }
 .container {
   max-width: 950px;
-}
-.btn:active {
-  top: 6px;
-  -webkit-box-shadow: 0px 5px 0px #3187C0;
-          box-shadow: 0px 5px 0px #3187C0;
 }
 .back-btn-container {
   margin-top: 20px;
