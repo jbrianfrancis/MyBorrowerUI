@@ -57,8 +57,8 @@
 					</thead>
 					<tbody>
 					<tr>
-						<td class="account-cell"><a href="#">Operating (************4509)</a></td>
-						<td class="share-cell">$3101.74</td>
+						<td class="account-cell">Operating (************4509)<p class="no-transactions">No transactions available</p></td>
+						<td class="share-cell">$0.13</td>
 					</tr>
 					<tr>
 						<td class="account-cell"><a href="#">SAVINGS (************3276)</a></td>
