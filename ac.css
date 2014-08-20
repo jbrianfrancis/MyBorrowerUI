@@ -783,6 +783,7 @@ h4.bank-name {
 @media all and (min-width: 768px) {
   .xpadding10.notbank {
     padding-top: 39px;
+    margin-bottom: -5px;
   }
 }
 .notification {

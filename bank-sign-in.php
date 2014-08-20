@@ -35,7 +35,7 @@
 		<div class="row">
 		  <div class="col-sm-12">
 		
-			  <div class="panel panel-default">
+			  <div class="panel panel-default panel-ac">
 				  
 			    <div class="panel-heading panel-heading-authorize">
 			      
@@ -64,19 +64,12 @@
 									<p class="xpadding10 notbank">Not your bank? Try a <a href="/HomeY/SearchFI">new search</a></p>
 									</form>							
 						</div>
-
 												
 					</div> <!-- close row -->
-					
-					
 				 
 			    </div> <!-- close panel-body -->
 				
-				
-				
 			  </div> <!-- close panel -->
-			  
-			
 			  
 		  </div> <!-- close col-md-10 -->
 			
