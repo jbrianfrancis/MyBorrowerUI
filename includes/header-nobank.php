@@ -6,7 +6,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-    <a class="navbar-brand navbar-nolinks" href="#"><img src="/images/logo-accountchek.svg" width="200" alt="ACCOUNTCHEK: Simple.Smart.Secure." onerror="this.onerror=null; this.src='images/logo-accountchek.png'"></a>    
+    <a class="navbar-brand navbar-nolinks" href="#"><img src="/images/logo-accountchek.svg" width="200" alt="ACCOUNTCHEK: Simple.Smart.Secure." onerror="this.onerror=null; this.src='/images/logo-accountchek.png'"></a>    
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
