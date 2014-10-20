@@ -7,12 +7,12 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>ACCOUNTCHEK - Authorize your Financial Institution</title>
+    <title>AccountChek™ - Authorize your Financial Institution</title>
 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css">
 	
     <!-- Custom styles for this template -->
-    <link href="ac.css" rel="stylesheet">
+    <link href="../ac.css" rel="stylesheet">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
 	
@@ -24,10 +24,10 @@
   </head>
   <body>
 	
-	<?php include("includes/header-nobank.php"); ?>
+	<?php include("../includes/header-nobank.php"); ?>
 	
 <div class="alert alert-success ac-alert-success alert-dismissable">
-		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> <i class="fa fa-check-circle"></i> Success! You have signed in to ACCOUNTCHEK. Now, we need to connect to your Bank. 
+		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> <i class="fa fa-check-circle"></i> Success! You have signed in to AccountChek™. Now, we need to connect to your Bank. 
 	</div>
 
 	<div class="container">
@@ -60,8 +60,8 @@
 												<input class="form-control" id="ID-PASSWORD1" name="ID-PASSWORD1" type="password" value="">
 											</div>
 									<!-- Sign-in Button -->
-									<a href="#" onclick="doSubmit('form0', 'inputForm');" class="btn btn-lg btn-authorize">Authorize  &nbsp;<i class="fa fa-caret-right"></i></a>
-									<p class="xpadding10 notbank">Not your bank? Try a <a href="search-results.php">new search</a></p>
+									<a href="challenge.php" onclick="doSubmit('form0', 'inputForm');" class="btn btn-lg btn-authorize">Authorize  &nbsp;<i class="fa fa-caret-right"></i></a>
+									<p class="xpadding10 notbank">Not your bank? Try a <a href="add-new-bank-alt.php">new search</a></p>
 									</form>							
 						</div>
 												
@@ -78,7 +78,7 @@
 	</div><!-- close container -->
 	
 
-	<?php include("includes/footer.php"); ?>
+	<?php include("../includes/footer.php"); ?>
 	
   </body>
 </html>

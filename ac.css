@@ -161,7 +161,7 @@ h4.bank-name-error span {
   }
 }
 .navbar-nav > li > a {
-  color: white;
+  color: #373942;
 }
 @media all and (min-width: 768px) {
   .navbar-nav > li > a {
@@ -176,7 +176,7 @@ h4.bank-name-error span {
           transition: background-color 0.5s ease;
 }
 .dropdown-menu > li > a {
-  color: #fff;
+  color: #373942;
 }
 @media all and (min-width: 992px) {
   .dropdown-menu > li > a {
@@ -185,12 +185,12 @@ h4.bank-name-error span {
     clear: both;
     font-weight: normal;
     line-height: 1.428571429;
-    color: #fff;
+    color: #373942;
     white-space: nowrap;
   }
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-  color: #fff;
+  color: #777;
 }
 @media all and (min-width: 768px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -199,12 +199,12 @@ h4.bank-name-error span {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #fff;
+  color: black;
 }
 @media all and (min-width: 768px) {
   .navbar-default .navbar-nav > li > a:hover,
   .navbar-default .navbar-nav > li > a:focus {
-    color: #fff;
+    color: black;
   }
 }
 /* input[type="checkbox"], input[type="radio"] {

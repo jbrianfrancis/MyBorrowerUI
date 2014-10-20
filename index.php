@@ -34,6 +34,10 @@
       <p class="process-type"></p>
 						
 			<div class="list-group">
+          <a href="Walkthrough/sign-in.php" class="list-group-item" target="_main">
+            <h4 class="list-group-item-heading"><strong>Walkthrough</strong></h4>
+            <p class="list-group-item-text"></p>
+          </a>
   				<a href="sign-in.php" class="list-group-item">
     				<h4 class="list-group-item-heading">Sign-in</h4>
     				<p class="list-group-item-text"></p>
