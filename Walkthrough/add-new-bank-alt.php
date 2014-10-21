@@ -77,7 +77,7 @@
 			
 			<h4 class="tiny-caps-type find-routing">How to find your routing number</h4>
 				
-			<p><img src="../images/check-half.png" class="check-image" alt="How to find your routing number"></p>
+			<p><img src="images/check-half.png" class="check-image" alt="How to find your routing number"></p>
 
 		</div>
 </div>
