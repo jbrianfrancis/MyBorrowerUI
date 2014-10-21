@@ -69,9 +69,6 @@
 			
 				<p>&nbsp;</p>
 
-				<!-- Field for routing number -->
-			    <input type="text" class="form-control" placeholder="By Routing Number">
-			    <a href="search-results.php" class="btn btn-lg btn-find-bank">Find Bank <i class="fa fa-chevron-right"></i></a>
 				
 	</div>
 	</div>
