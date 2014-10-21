@@ -46,5 +46,3 @@
 
 </body>
 </html>
-
->>>>>>> parent of 24850f3... Redirect straight to walkthrough
