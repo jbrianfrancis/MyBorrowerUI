@@ -50,7 +50,7 @@
 				</td>
 				<td class="enrolled-cell"><!-- <p class="status-icon"><i class="fa fa-check-circle fa-2x"></i></p> --></td>
 				<td style="vertical-align:middle;">
-						<p class="status-action"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-plus-square"></i> Enroll Now</a></p>
+						<p class="status-action"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-plus-square"></i> Share More</a></p>
 				</td>
 			</tr>
 			<tr>
