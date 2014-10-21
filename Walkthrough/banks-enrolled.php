@@ -31,10 +31,11 @@
 		<div class="row">	
 			
 			<div class="container text-center enrollment-success">		  
-				<p><img src="../images/brand-check-green.png" alt="Enrollment Complete!"></p>
+				<p><img src="images/brand-check-green.png" alt="Enrollment Complete!"></p>
 				
 				<h2 class="success-heading">Enrollment complete!</h2>
-				<p>You have successfully enrolled your bank into AccountChek™ and shared accounts for digital asset verification.</p>
+				<p>You are finished! Unless you would like to <a href="add-new-bank-alt.php">Add a Bank</a>, please sign out.</p>
+				<p><a href="signed-out.php" class="btn btn-sm btn-primary btn-sign-out">Sign Out <i class="fa fa-sign-out"></i></a></p>
 								
 			</div> <!-- close containter -->
 			

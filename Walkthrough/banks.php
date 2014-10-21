@@ -30,10 +30,19 @@
 		<div class="col-md-12">
 			
 		
-		<h3><i class="fa fa-university"></i> Your Banks</h3>
-		<p class="process-type">Don't see the bank you need to enroll listed below?  <a href="add-new-bank-alt.php">Add a new bank <i class="fa fa-arrow-right"></i></a></p>
+		<!-- <h3><i class="fa fa-university"></i> Your Banks</h3>
+		<p class="process-type">Don't see the bank you need to enroll listed below?  <a href="add-new-bank-alt.php">Add a new bank <i class="fa fa-arrow-right"></i></a></p> -->
 		
 		<div class="panel panel-default panel-ac">
+
+		<div class="container text-center enrollment-success">		  
+				<p><img src="images/brand-check-green.png" alt="Enrollment Complete!"></p>
+				
+				<h2 class="success-heading">Enrollment complete!</h2>
+				<p>You are finished! Unless you would like to <a href="add-new-bank-alt.php">Add a Bank</a>, please sign out.</p>
+				<p><a href="signed-out.php" class="btn btn-sm btn-primary btn-sign-out">Sign Out <i class="fa fa-sign-out"></i></a></p>
+								
+		</div> <!-- close containter -->
 		  		
 		  <!-- Table -->
 		  <table class="table table-ac">
